@@ -1,14 +1,16 @@
 {
   "name": "webapp",
   "version": "0.0.0",
-  "main" : "main.js",
+  "main": "main.js",
   "scripts": {
     "ng": "ng",
-    "start": "ng serve",
+    "start": "electron-forge start",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "electron":"ng build && electron ."
+    "electron": "electron .",
+    "package": "electron-forge package",
+    "make": "electron-forge make"
   },
   "private": true,
   "dependencies": {
@@ -20,6 +22,7 @@
     "@angular/platform-browser": "^16.2.0",
     "@angular/platform-browser-dynamic": "^16.2.0",
     "@angular/router": "^16.2.0",
+    "electron-squirrel-startup": "^1.0.0",
     "rxjs": "~7.8.0",
     "tslib": "^2.3.0",
     "zone.js": "~0.13.0"
@@ -28,6 +31,12 @@
     "@angular-devkit/build-angular": "^16.2.8",
     "@angular/cli": "^16.2.8",
     "@angular/compiler-cli": "^16.2.0",
+    "@electron-forge/cli": "^6.4.2",
+    "@electron-forge/maker-deb": "^6.4.2",
+    "@electron-forge/maker-rpm": "^6.4.2",
+    "@electron-forge/maker-squirrel": "^6.4.2",
+    "@electron-forge/maker-zip": "^6.4.2",
+    "@electron-forge/plugin-auto-unpack-natives": "^6.4.2",
     "@types/jasmine": "~4.3.0",
     "electron": "^27.0.2",
     "jasmine-core": "~4.6.0",

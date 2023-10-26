@@ -9,8 +9,9 @@ function onReady () {
 			__dirname,
 			'dist/webapp/index.html'),       
 		protocol: 'file:',      
-		slashes: true     
+		slashes: true,
 	}))   
+    
 } 
 
 app.on('ready', onReady);
