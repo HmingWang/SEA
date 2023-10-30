@@ -11,7 +11,7 @@
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "electron": "electron .",
+    "electron": "ng build && electron .",
     "package": "electron-forge package",
     "make": "electron-forge make"
   },
@@ -27,7 +27,6 @@
     "@angular/router": "^16.2.0",
     "electron-squirrel-startup": "^1.0.0",
     "ng-zorro-antd": "^16.2.2",
-    "ngx-childprocess": "^0.0.6",
     "rxjs": "~7.8.0",
     "tslib": "^2.3.0",
     "zone.js": "~0.13.0"

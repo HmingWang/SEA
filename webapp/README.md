@@ -12,3 +12,4 @@ npm i --save-dev @types/node
   * execFile: 启动一个子进程来执行可执行文件； 
   * fork:与 spawn 类似，不同点在于它创建 Node 的子进程只需指定要执行的 JavaScript 文件模块即可；
 
+* Electron 對於安全性設定非常嚴格，我們需要在 main.js 中建立 BrowserWindow 時，加上contextIsolation 安全性選項

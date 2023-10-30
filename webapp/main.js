@@ -10,7 +10,9 @@ function createWindow () {
     width: 800,
     height: 600,
     webPreferences: {
-      nodeIntegration: true
+      nodeIntegration: true,
+      //使得node函数可以在rander进程中使用，避免出现如下错误： window.require is not a function
+      contextIsolation: false,//讓在 preload.js 的定義可以傳遞到 Render Process
     }
   })
 
