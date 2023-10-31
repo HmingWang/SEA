@@ -7,6 +7,8 @@
       <excludeFolder url="file://$MODULE_DIR$/webapp/tmp" />
       <excludeFolder url="file://$MODULE_DIR$/webapp/out" />
       <excludeFolder url="file://$MODULE_DIR$/.idea/modules" />
+      <excludeFolder url="file://$MODULE_DIR$/server/build" />
+      <excludeFolder url="file://$MODULE_DIR$/webapp/node_modules" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

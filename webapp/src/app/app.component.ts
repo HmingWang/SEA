@@ -28,7 +28,7 @@ export class AppComponent {
     this.webFrame = (window as any).require('electron').webFrame;
     this.fs = (window as any).require('fs');
     this.childProcess = (window as any).require('child_process');
-    this.childProcess.exec('java -jar ./dist/webapp/assets/jar/*.jar', (error, stdout, stderr) => {
+    this.childProcess.exec('sh ./dist/webapp/assets/my.sh', (error, stdout, stderr) => {
       if (error) {
         console.log(error);
 
