@@ -14,7 +14,12 @@ function createWindow () {
     height: 300,
     transparent: true,
     frame: false,
-    alwaysOnTop: true
+    alwaysOnTop: true,
+    webPreferences: {
+      nodeIntegration: true,
+      //使得node函数可以在rander进程中使用，避免出现如下错误： window.require is not a function
+      contextIsolation: false,//讓在 preload.js 的定義可以傳遞到 Render Process
+    }
   });
   splash.loadURL(
     url.format({
@@ -25,10 +30,10 @@ function createWindow () {
     }));
 
   splash.center();
-  setTimeout(function () {
-    splash.close();
-    mainWindow.show();
-  }, 5000);
+  // setTimeout(function () {
+  //   splash.close();
+  //   mainWindow.show();
+  // }, 5000);
 
   //主窗口
   mainWindow = new BrowserWindow({
