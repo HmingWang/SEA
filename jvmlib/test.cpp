@@ -33,14 +33,14 @@ API_EXPORT int initialize(int udpReceiver, const char* vmPath, const char* class
 	}
 
 	SetDllDirectory(vmPath);
-	// ¼ÓÔØJVMµÄ¶¯Ì¬¿â
-	jvmDLL = LoadLibrary(_T("D:/SpecialProjects/ElectronWithJava/Electron/backend/bin/server/jvm.dll"));
+	// åŠ è½½JVMçš„åŠ¨æ€åº“
+	jvmDLL = LoadLibrary(_T("./jre/bin/server/jvm.dll"));
 	if (jvmDLL == NULL) {
 		cout << "[VM Initializer] Error on loading java vm native library" << endl;
 		return 0;
 	}
 
-	//³õÊ¼»¯jvmÎïÀíµØÖ·
+	//åˆå§‹åŒ–jvmç‰©ç†åœ°å€
 	JNICREATEPROC jvmProcAddress = (JNICREATEPROC)GetProcAddress(jvmDLL, "JNI_CreateJavaVM");
 	if (jvmProcAddress == NULL) {
 		FreeLibrary(jvmDLL);
@@ -48,7 +48,7 @@ API_EXPORT int initialize(int udpReceiver, const char* vmPath, const char* class
 		return 1;
 	}
 
-	//javaĞéÄâ»úÆô¶¯Ê±½ÓÊÕµÄ²ÎÊı£¬Ã¿¸ö²ÎÊıµ¥¶ÀÒ»Ïî
+	//javaè™šæ‹Ÿæœºå¯åŠ¨æ—¶æ¥æ”¶çš„å‚æ•°ï¼Œæ¯ä¸ªå‚æ•°å•ç‹¬ä¸€é¡¹
 
 
 	int nOptionCount = 0;
@@ -81,7 +81,7 @@ API_EXPORT int initialize(int udpReceiver, const char* vmPath, const char* class
 		//printf("\n opt is %s", opt.optionString);
 	}
 
-	//ÉèÖÃclasspath
+	//è®¾ç½®classpath
 	string opt = (string("-Djava.class.path=") + string(classPath));
 	JavaVMOption classPathOpt;
 	classPathOpt.optionString = (char*)opt.c_str();
@@ -93,16 +93,16 @@ API_EXPORT int initialize(int udpReceiver, const char* vmPath, const char* class
 	vmInitArgs.version = JNI_VERSION_1_8;
 	vmInitArgs.options = vmOption;
 	vmInitArgs.nOptions = nOptionCount + 1;
-	//ºöÂÔÎŞ·¨Ê¶±ğjvmµÄÇé¿ö
+	//å¿½ç•¥æ— æ³•è¯†åˆ«jvmçš„æƒ…å†µ
 	vmInitArgs.ignoreUnrecognized = JNI_TRUE;
 
 
 	/*
-	* ÕâÀïµÄÒì³£ÊÇJVMÖ÷¶¯Éú³É£¬²»ĞèÒªÀí»áËü¡£
+	* è¿™é‡Œçš„å¼‚å¸¸æ˜¯JVMä¸»åŠ¨ç”Ÿæˆï¼Œä¸éœ€è¦ç†ä¼šå®ƒã€‚
 	*
-	* SEGV£¨»òÒì³£0xC0000005£©ÊÇÔÚJVMÆô¶¯Ê±ÓĞÒâÉú³ÉµÄ£¬ÒÔÑéÖ¤Ä³Ğ©CPU / OS¹¦ÄÜ¡£
-	* Ä³Ğ©²Ù×÷ÏµÍ³»òĞéÄâ»ú¹ÜÀí³ÌĞò´æÔÚÒ»¸ö´íÎó£¬¼´ AVX ¼Ä´æÆ÷ÔÚĞÅºÅ´¦ÀíºóÎŞ·¨»Ö¸´¡£
-	* Òò´Ë£¬JVMĞèÒª¼ì²éÊÇ·ñÊÇÕâÖÖÇé¿ö,Òò´Ë£¬ËüÍ¨¹ıĞ´ÈëÁãµØÖ·Éú³ÉÒì³££¬È»ºó´¦ÀíËü¡£
+	* SEGVï¼ˆæˆ–å¼‚å¸¸0xC0000005ï¼‰æ˜¯åœ¨JVMå¯åŠ¨æ—¶æœ‰æ„ç”Ÿæˆçš„ï¼Œä»¥éªŒè¯æŸäº›CPU / OSåŠŸèƒ½ã€‚
+	* æŸäº›æ“ä½œç³»ç»Ÿæˆ–è™šæ‹Ÿæœºç®¡ç†ç¨‹åºå­˜åœ¨ä¸€ä¸ªé”™è¯¯ï¼Œå³ AVX å¯„å­˜å™¨åœ¨ä¿¡å·å¤„ç†åæ— æ³•æ¢å¤ã€‚
+	* å› æ­¤ï¼ŒJVMéœ€è¦æ£€æŸ¥æ˜¯å¦æ˜¯è¿™ç§æƒ…å†µ,å› æ­¤ï¼Œå®ƒé€šè¿‡å†™å…¥é›¶åœ°å€ç”Ÿæˆå¼‚å¸¸ï¼Œç„¶åå¤„ç†å®ƒã€‚
 	*/
 	jint jvmProc = (jvmProcAddress)(&jvm, (void**)&env, &vmInitArgs);
 	if (jvmProc < 0 || jvm == NULL || env == NULL) {
@@ -111,29 +111,29 @@ API_EXPORT int initialize(int udpReceiver, const char* vmPath, const char* class
 		cout << "[VM Initializer] Error on creating java environment , failed to init Java VM" << endl;
 		return jvmProc;
 	}
-	// ²éÕÒºÍ¼ÓÔØMainClass
+	// æŸ¥æ‰¾å’ŒåŠ è½½MainClass
 	jclass mainClazz = env->FindClass(mainClass);
 	if (mainClazz == NULL) {
 		cout << "[VM Initializer] Error on starting java backend, Class not found." << endl;
 		return 3;
 	}
 
-	// ²éÕÒMain·½·¨
+	// æŸ¥æ‰¾Mainæ–¹æ³•
 	jmethodID init = env->GetStaticMethodID(mainClazz, "main", "([Ljava/lang/String;)V");
 	if (init == NULL) {
 		cout << "[VM Initializer] Error on starting java backend, main method not found." << endl;
 		return 4;
 	}
 
-	// ÎÒ½«Ê¹ÓÃUDPÀ´ÊµÏÖºó¶Ëµ½Ç°¶ËµÄÏûÏ¢Í¨ĞÅ£¬Òò´ËĞèÒªÒ»¸öUDP¶Ë¿Ú£¬
-	// Õâ¸ö¶Ë¿Ú±»Nodejs¼àÌı¡£
+	// æˆ‘å°†ä½¿ç”¨UDPæ¥å®ç°åç«¯åˆ°å‰ç«¯çš„æ¶ˆæ¯é€šä¿¡ï¼Œå› æ­¤éœ€è¦ä¸€ä¸ªUDPç«¯å£ï¼Œ
+	// è¿™ä¸ªç«¯å£è¢«Nodejsç›‘å¬ã€‚
 	char* recvStr = int_to_string(udpReceiver);
 	jobjectArray params = env->NewObjectArray(1, env->FindClass("java/lang/String"), NULL);
 	jstring udpParam = env->NewStringUTF(recvStr);
 	cout << "[VM Initializer] UDP at port " << udpReceiver << endl;
 	env->SetObjectArrayElement(params, 0, udpParam);
 	cout << "[VM Initializer] Calling main method..." << endl;
-	// µ÷ÓÃMain£¬Æô¶¯SpringBoot
+	// è°ƒç”¨Mainï¼Œå¯åŠ¨SpringBoot
 	env->CallStaticVoidMethod(mainClazz, init, params);
 	cout << "[VM Initializer] Service is ready." << endl;
 	delete recvStr;
