@@ -10,3 +10,8 @@ A Springboot + Electron +Angular project framework
 ### 注意事项
 
 1. windows要安装gradle 注意gradle和jdk的版本。
+
+2. 生成一个jre  java runtime 
+```
+bin\jlink --module-path=.\jmods --add-modules=java.se --output .\backend
+```
