@@ -2,10 +2,16 @@ const {app, BrowserWindow} = require('electron')
 const url = require("url");
 const path = require("path");
 const child = require('child_process');
+const ffi = require('@breush/ffi-napi');
 
 let mainWindow
 
-function createWindow () {
+
+function load_jvm(){
+
+
+}
+function createWindow() {
 
   //先 create splash 界面
 
@@ -26,10 +32,22 @@ function createWindow () {
       pathname: path.join(__dirname, `/dist/webapp/index.html`),
       protocol: "file:",
       slashes: true,
-      hash:'/splash'
+      hash: '/splash'
     }));
 
   splash.center();
+  splash.webContents.openDevTools();
+  //----------------------------------
+  console.log(path.join(__dirname),'!!!!!!!!!!!');
+  // console.log(path.join(__dirname));
+  let native = ffi.Library(path.join(__dirname, `/libserver/jvmlib.dll`),{
+    initialize:["int", ["int","string","string","string","string"]],
+    destroy:["bool",["void"]],
+  });
+  //
+  native.initialize(8090,"",'','',"main");
+
+  //----------------------------------
   // setTimeout(function () {
   //   splash.close();
   //   mainWindow.show();
@@ -39,7 +57,7 @@ function createWindow () {
   mainWindow = new BrowserWindow({
     width: 800,
     height: 600,
-    show:false,// 先不显示主界面，显示 splash 界面
+    show: false,// 先不显示主界面，显示 splash 界面
     webPreferences: {
       nodeIntegration: true,
       //使得node函数可以在rander进程中使用，避免出现如下错误： window.require is not a function
@@ -62,7 +80,10 @@ function createWindow () {
   })
 }
 
-app.on('ready', createWindow)
+app.on('ready', function () {
+  load_jvm();
+  createWindow();
+})
 
 app.on('window-all-closed', function () {
   if (process.platform !== 'darwin') app.quit()
@@ -71,3 +92,5 @@ app.on('window-all-closed', function () {
 app.on('activate', function () {
   if (mainWindow === null) createWindow()
 })
+
+

@@ -26,9 +26,9 @@
     "@angular/platform-browser-dynamic": "^17.3.2",
     "@angular/router": "^17.3.2",
     "electron-squirrel-startup": "^1.0.0",
-    "ffi-napi": "^4.0.3",
+    "@breush/ffi-napi": "^4.0.13",
+    "@breush/ref-napi": "^4.0.9",
     "ng-zorro-antd": "^17.3.0",
-    "ref-napi": "^3.0.3",
     "rxjs": "~7.8.1",
     "tslib": "^2.6.2",
     "zone.js": "~0.14.4"

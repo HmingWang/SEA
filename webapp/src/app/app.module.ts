@@ -14,7 +14,6 @@ import {NzInputModule} from "ng-zorro-antd/input";
 import {SplashComponent} from './pages/splash/splash.component';
 import {RoutesModule} from "./routes/routes.module";
 import {LayoutModule} from "./layout/layout.module";
-
 registerLocaleData(en);
 
 @NgModule({
@@ -30,7 +29,7 @@ registerLocaleData(en);
     NzButtonModule,
     NzInputModule,
     RoutesModule,
-    LayoutModule
+    LayoutModule,
   ],
   providers: [
     {provide: NZ_I18N, useValue: en_US}
