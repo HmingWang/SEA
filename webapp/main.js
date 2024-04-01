@@ -12,11 +12,7 @@ let server;
 function load_jvm() {
   server=new Server();
   server.initializeJavaProcess();
-  process.on('SIGINT', () => {
-    console.log('主进程结束');
-    server.terminalJavaProcess();
-    process.exit();
-  });
+
 }
 
 function createWindow() {
@@ -74,6 +70,7 @@ function createWindow() {
 
   mainWindow.on('closed', function () {
     mainWindow = null
+
   })
 }
 
@@ -83,7 +80,10 @@ app.on('ready', async () => {
 })
 
 app.on('window-all-closed', function () {
-  if (process.platform !== 'darwin') app.quit()
+  if (process.platform !== 'darwin') {
+    server.terminalJavaProcess();
+    app.quit();
+  }
 })
 
 app.on('activate', function () {

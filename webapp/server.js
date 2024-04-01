@@ -48,7 +48,11 @@ class Server {
     this.child.stdout.pipe(process.stdout);
     this.child.stderr.pipe(process.stderr);
 
-
+    process.on('SIGINT', () => {
+      console.log('主进程结束');
+      this.terminalJavaProcess();
+      process.exit();
+    });
 
     this.child.on('exit',(code)=>{
       console.log('子进程退出代码：{}',code);
