@@ -27,7 +27,7 @@ char* int_to_string(int val) {
 	return buf;
 }
 
-API_EXPORT int initialize(int udpReceiver, const char* vmLocation, const char* classPath,const char* vmOptions, const char* mainClass)
+API_EXPORT int initialize(const char* vmLocation, const char* classPath,const char* vmOptions, const char* mainClass)
 {
 
 	if (jvm != NULL) {
@@ -43,7 +43,7 @@ API_EXPORT int initialize(int udpReceiver, const char* vmLocation, const char* c
 	jvmDLL = LoadLibrary(_T("server/jvm.dll"));
 #endif
 #ifdef __APPLE__
-	jvmDLL = LoadLibrary(_T("backend/bin/server/jvm.dylib"));
+	jvmDLL = LoadLibrary(_T("/server/jvm.dylib"));
 #endif
 	if (jvmDLL == NULL) {
 		ofsLogger << "[VM Initializer] Error on loading java vm native library" << endl;
@@ -136,16 +136,16 @@ API_EXPORT int initialize(int udpReceiver, const char* vmLocation, const char* c
 
     // 我将使用UDP来实现后端到前端的消息通信，因此需要一个UDP端口，
     // 这个端口被Nodejs监听。
-	char * recvStr = int_to_string(udpReceiver);
+	// char * recvStr = int_to_string(udpReceiver);
 	jobjectArray params = env->NewObjectArray(1, env->FindClass("java/lang/String"),NULL);
-	jstring udpParam = env->NewStringUTF(recvStr);
-	cout << "[VM Initializer] UDP at port " << udpReceiver << endl;
-	env->SetObjectArrayElement(params, 0, udpParam);
+	// jstring udpParam = env->NewStringUTF(recvStr);
+	// cout << "[VM Initializer] UDP at port " << udpReceiver << endl;
+	// env->SetObjectArrayElement(params, 0, udpParam);
 	cout << "[VM Initializer] Calling main method..." << endl;
         // 调用Main，启动SpringBoot
 	env->CallStaticVoidMethod(mainClazz, init, params);
 	cout << "[VM Initializer] Service is ready." << endl;
-	delete recvStr;
+	// delete recvStr;
 	ofsLogger.close();
 	return 0;
 }
