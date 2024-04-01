@@ -1,16 +1,24 @@
-const {app, BrowserWindow} = require('electron')
+'use strict';
+const {app, BrowserWindow, createProtocol} = require('electron')
 const url = require("url");
 const path = require("path");
-const child = require('child_process');
-const ffi = require('@breush/ffi-napi');
+const {Server} = require("./server");
+
 
 let mainWindow
 
+let server;
 
-function load_jvm(){
-
-
+function load_jvm() {
+  server=new Server();
+  server.initializeJavaProcess();
+  process.on('SIGINT', () => {
+    console.log('主进程结束');
+    server.terminalJavaProcess();
+    process.exit();
+  });
 }
+
 function createWindow() {
 
   //先 create splash 界面
@@ -36,22 +44,11 @@ function createWindow() {
     }));
 
   splash.center();
-  splash.webContents.openDevTools();
-  //----------------------------------
-  console.log(path.join(__dirname),'!!!!!!!!!!!');
-  // console.log(path.join(__dirname));
-  let native = ffi.Library(path.join(__dirname, `/libserver/jvmlib.dll`),{
-    initialize:["int", ["int","string","string","string","string"]],
-    destroy:["bool",["void"]],
-  });
-  //
-  native.initialize(8090,"",'','',"main");
-
-  //----------------------------------
-  // setTimeout(function () {
-  //   splash.close();
-  //   mainWindow.show();
-  // }, 5000);
+  // splash.webContents.openDevTools();
+  setTimeout(function () {
+    splash.close();
+    mainWindow.show();
+  }, 10000);
 
   //主窗口
   mainWindow = new BrowserWindow({
@@ -80,7 +77,7 @@ function createWindow() {
   })
 }
 
-app.on('ready', function () {
+app.on('ready', async () => {
   load_jvm();
   createWindow();
 })

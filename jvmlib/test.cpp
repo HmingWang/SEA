@@ -34,7 +34,7 @@ API_EXPORT int initialize(int udpReceiver, const char* vmPath, const char* class
 
 	SetDllDirectory(vmPath);
 	// 加载JVM的动态库
-	jvmDLL = LoadLibrary(_T("./jre/bin/server/jvm.dll"));
+	jvmDLL = LoadLibrary(_T("server/jvm.dll"));
 	if (jvmDLL == NULL) {
 		cout << "[VM Initializer] Error on loading java vm native library" << endl;
 		return 0;
@@ -127,23 +127,27 @@ API_EXPORT int initialize(int udpReceiver, const char* vmPath, const char* class
 
 	// 我将使用UDP来实现后端到前端的消息通信，因此需要一个UDP端口，
 	// 这个端口被Nodejs监听。
-	char* recvStr = int_to_string(udpReceiver);
+	// char* recvStr = int_to_string(8090);
 	jobjectArray params = env->NewObjectArray(1, env->FindClass("java/lang/String"), NULL);
-	jstring udpParam = env->NewStringUTF(recvStr);
-	cout << "[VM Initializer] UDP at port " << udpReceiver << endl;
-	env->SetObjectArrayElement(params, 0, udpParam);
+	jstring udpParam = env->NewStringUTF("");
+	// cout << "[VM Initializer] UDP at port " << udpReceiver << endl;
+	env->SetObjectArrayElement(params, 0,udpParam);
 	cout << "[VM Initializer] Calling main method..." << endl;
 	// 调用Main，启动SpringBoot
-	env->CallStaticVoidMethod(mainClazz, init, params);
+	// jstring parm=env->NewStringUTF("");
+
+
+
+	env->CallStaticVoidMethod(mainClazz, init,params);
 	cout << "[VM Initializer] Service is ready." << endl;
-	delete recvStr;
+	// delete recvStr;
 	return true;
 }
 
 
 void main() {
 
-	char vmOptions[] = "--Xmx1024m\n-javaagent:D:\\SpecialProjects\\ElectronWithJava\\Electron\\agentDemo-1.0-SNAPSHOT.jar";
-	initialize(0, "D:\\SpecialProjects\\ElectronWithJava\\Electron\\backend\\bin","D:/SpecialProjects/ElectronWithJava/NativeVMBridge/Build/Release/table-0.0.1-SNAPSHOT.jar", vmOptions, "");
+	char vmOptions[] = "--Xmx1024m\n";//org/springframework/boot/loader/launch/JarLauncher
+	initialize(0, "E:\\Gits\\SEA\\webapp\\out\\webapp-win32-x64\\resources\\libserver\\jre\\bin","E:\\Gits\\SEA\\webapp\\out\\webapp-win32-x64\\resources\\libserver\\server-0.0.1-SNAPSHOT.jar", vmOptions, "org/springframework/boot/loader/launch/JarLauncher");
 
 }

@@ -1,0 +1,18 @@
+2024-04-01 14:33:04,279 [] [Test worker] INFO  com.whm.sea.SeaApplicationTests [50]- Starting SeaApplicationTests using Java 17.0.9 with PID 28684 (started by whm in E:\Gits\SEA\server)
+2024-04-01 14:33:04,299 [] [Test worker] INFO  com.whm.sea.SeaApplicationTests [660]- The following 1 profile is active: "dev"
+2024-04-01 14:33:04,827 [] [Test worker] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate [139]- Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-04-01 14:33:04,859 [] [Test worker] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate [208]- Finished Spring Data repository scanning in 10 ms. Found 0 JPA repository interfaces.
+2024-04-01 14:33:05,189 [] [Test worker] INFO  com.zaxxer.hikari.HikariDataSource [110]- HikariPool-1 - Starting...
+2024-04-01 14:33:05,330 [] [Test worker] INFO  com.zaxxer.hikari.pool.HikariPool [565]- HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:79990f20-e1ac-441f-ab14-227a34e7819a user=SA
+2024-04-01 14:33:05,330 [] [Test worker] INFO  com.zaxxer.hikari.HikariDataSource [123]- HikariPool-1 - Start completed.
+2024-04-01 14:33:05,385 [] [Test worker] INFO  org.hibernate.jpa.internal.util.LogHelper [31]- HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-04-01 14:33:05,434 [] [Test worker] INFO  org.hibernate.Version [44]- HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-04-01 14:33:05,465 [] [Test worker] INFO  org.hibernate.cache.internal.RegionFactoryInitiator [50]- HHH000026: Second-level cache disabled
+2024-04-01 14:33:05,685 [] [Test worker] INFO  org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo [87]- No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-04-01 14:33:05,975 [] [Test worker] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [58]- HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-04-01 14:33:05,980 [] [Test worker] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [437]- Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-04-01 14:33:06,121 [] [Test worker] WARN  o.s.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [232]- spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-04-01 14:33:06,666 [] [Test worker] INFO  com.whm.sea.SeaApplicationTests [56]- Started SeaApplicationTests in 2.638 seconds (process running for 3.667)
+2024-04-01 14:33:07,228 [] [SpringApplicationShutdownHook] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [650]- Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-04-01 14:33:07,228 [] [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource [350]- HikariPool-1 - Shutdown initiated...
+2024-04-01 14:33:07,228 [] [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource [352]- HikariPool-1 - Shutdown completed.

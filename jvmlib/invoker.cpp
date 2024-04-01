@@ -2,6 +2,7 @@
 #include "platform.h"
 #include <iostream>
 #include <fstream>
+#include <thread>
 
 using namespace std;
 
@@ -138,11 +139,15 @@ API_EXPORT int initialize(const char* vmLocation, const char* classPath,const ch
     // 这个端口被Nodejs监听。
 	// char * recvStr = int_to_string(udpReceiver);
 	jobjectArray params = env->NewObjectArray(1, env->FindClass("java/lang/String"),NULL);
-	// jstring udpParam = env->NewStringUTF(recvStr);
+	jstring udpParam = env->NewStringUTF("");
 	// cout << "[VM Initializer] UDP at port " << udpReceiver << endl;
-	// env->SetObjectArrayElement(params, 0, udpParam);
+	env->SetObjectArrayElement(params, 0, udpParam);
 	cout << "[VM Initializer] Calling main method..." << endl;
         // 调用Main，启动SpringBoot
+
+	//启动新线程执行java程序
+	// std::thread task(&JNIEnv::CallStaticVoidMethod,env,mainClazz, init, params);
+	// task.detach();
 	env->CallStaticVoidMethod(mainClazz, init, params);
 	cout << "[VM Initializer] Service is ready." << endl;
 	// delete recvStr;

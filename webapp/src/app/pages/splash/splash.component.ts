@@ -5,8 +5,8 @@ import {ipcRenderer, webFrame} from 'electron';
 import * as childProcess from 'child_process';
 import * as fs from 'fs';
 import * as path from 'path';
-// import {JvmService} from "../../services/jvm.service";
-// import * as ffi from 'ffi-napi';
+// import * as s from '../../../../server.js';
+
 @Component({
   selector: 'app-splash',
   templateUrl: './splash.component.html',
@@ -15,23 +15,10 @@ import * as path from 'path';
 export class SplashComponent {
 
   log_txt: string = '';
-  // childProcess!: typeof childProcess;
-  // ipcRenderer!: typeof ipcRenderer;
-  // webFrame!: typeof webFrame;
-  // fs!: typeof fs;
-  // path!: typeof path;
-  //
-  // ffi: any;
-  // napi;
 
-  // springServer:JvmService;
-  // napi;
 
   constructor(private router: Router, private activedRoute: ActivatedRoute) {
-    // this.springServer=new JvmService();
 
-    // this.ffi = (window as any).require('@breush/ffi-napi');
-    // this.path = (window as any).require('path');
 
   }
 

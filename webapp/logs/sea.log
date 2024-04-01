@@ -1,0 +1,768 @@
+2024-04-01 15:28:05,503 [] [main] INFO  com.whm.sea.SeaApplication [50]- Starting SeaApplication v0.0.1-SNAPSHOT using Java 22 with PID 26476 (E:\Gits\SEA\webapp\libserver\server-0.0.1-SNAPSHOT.jar started by whm in E:\Gits\SEA\webapp)
+2024-04-01 15:28:05,559 [] [main] INFO  com.whm.sea.SeaApplication [660]- The following 1 profile is active: "dev"
+2024-04-01 15:28:06,131 [] [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate [139]- Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-04-01 15:28:06,144 [] [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate [208]- Finished Spring Data repository scanning in 10 ms. Found 0 JPA repository interfaces.
+2024-04-01 15:28:06,658 [] [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer [109]- Tomcat initialized with port 8090 (http)
+2024-04-01 15:28:06,666 [] [main] INFO  org.apache.coyote.http11.Http11NioProtocol [173]- Initializing ProtocolHandler ["http-nio-8090"]
+2024-04-01 15:28:06,672 [] [main] INFO  org.apache.catalina.core.StandardService [173]- Starting service [Tomcat]
+2024-04-01 15:28:06,672 [] [main] INFO  org.apache.catalina.core.StandardEngine [173]- Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-04-01 15:28:06,700 [] [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [173]- Initializing Spring embedded WebApplicationContext
+2024-04-01 15:28:06,700 [] [main] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [296]- Root WebApplicationContext: initialization completed in 1079 ms
+2024-04-01 15:28:06,871 [] [main] INFO  com.zaxxer.hikari.HikariDataSource [110]- HikariPool-1 - Starting...
+2024-04-01 15:28:07,036 [] [main] INFO  com.zaxxer.hikari.pool.HikariPool [565]- HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:1c205ec8-f8ea-40e0-ac39-39e8e100a4a4 user=SA
+2024-04-01 15:28:07,036 [] [main] INFO  com.zaxxer.hikari.HikariDataSource [123]- HikariPool-1 - Start completed.
+2024-04-01 15:28:07,080 [] [main] INFO  org.hibernate.jpa.internal.util.LogHelper [31]- HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-04-01 15:28:07,181 [] [main] INFO  org.hibernate.Version [44]- HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-04-01 15:28:07,213 [] [main] INFO  org.hibernate.cache.internal.RegionFactoryInitiator [50]- HHH000026: Second-level cache disabled
+2024-04-01 15:28:07,490 [] [main] INFO  org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo [87]- No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-04-01 15:28:07,721 [] [main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [58]- HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-04-01 15:28:07,725 [] [main] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [437]- Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-04-01 15:28:07,758 [] [main] WARN  o.s.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [232]- spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-04-01 15:28:08,180 [] [main] INFO  org.apache.coyote.http11.Http11NioProtocol [173]- Starting ProtocolHandler ["http-nio-8090"]
+2024-04-01 15:28:08,212 [] [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer [241]- Tomcat started on port 8090 (http) with context path ''
+2024-04-01 15:28:08,230 [] [main] INFO  com.whm.sea.SeaApplication [56]- Started SeaApplication in 3.159 seconds (process running for 3.773)
+2024-04-01 15:30:02,446 [] [main] INFO  com.whm.sea.SeaApplication [50]- Starting SeaApplication v0.0.1-SNAPSHOT using Java 22 with PID 208 (E:\Gits\SEA\webapp\libserver\server-0.0.1-SNAPSHOT.jar started by whm in E:\Gits\SEA\webapp)
+2024-04-01 15:30:02,510 [] [main] INFO  com.whm.sea.SeaApplication [660]- The following 1 profile is active: "dev"
+2024-04-01 15:30:03,050 [] [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate [139]- Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-04-01 15:30:03,066 [] [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate [208]- Finished Spring Data repository scanning in 9 ms. Found 0 JPA repository interfaces.
+2024-04-01 15:30:03,533 [] [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer [109]- Tomcat initialized with port 8090 (http)
+2024-04-01 15:30:03,541 [] [main] INFO  org.apache.coyote.http11.Http11NioProtocol [173]- Initializing ProtocolHandler ["http-nio-8090"]
+2024-04-01 15:30:03,541 [] [main] INFO  org.apache.catalina.core.StandardService [173]- Starting service [Tomcat]
+2024-04-01 15:30:03,541 [] [main] INFO  org.apache.catalina.core.StandardEngine [173]- Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-04-01 15:30:03,577 [] [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [173]- Initializing Spring embedded WebApplicationContext
+2024-04-01 15:30:03,581 [] [main] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [296]- Root WebApplicationContext: initialization completed in 1013 ms
+2024-04-01 15:30:03,730 [] [main] INFO  com.zaxxer.hikari.HikariDataSource [110]- HikariPool-1 - Starting...
+2024-04-01 15:30:03,890 [] [main] INFO  com.zaxxer.hikari.pool.HikariPool [565]- HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:a8733dec-14e2-4126-beed-5e7e0f96773d user=SA
+2024-04-01 15:30:03,890 [] [main] INFO  com.zaxxer.hikari.HikariDataSource [123]- HikariPool-1 - Start completed.
+2024-04-01 15:30:03,931 [] [main] INFO  org.hibernate.jpa.internal.util.LogHelper [31]- HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-04-01 15:30:04,025 [] [main] INFO  org.hibernate.Version [44]- HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-04-01 15:30:04,053 [] [main] INFO  org.hibernate.cache.internal.RegionFactoryInitiator [50]- HHH000026: Second-level cache disabled
+2024-04-01 15:30:04,306 [] [main] INFO  org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo [87]- No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-04-01 15:30:04,539 [] [main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [58]- HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-04-01 15:30:04,543 [] [main] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [437]- Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-04-01 15:30:04,576 [] [main] WARN  o.s.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [232]- spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-04-01 15:30:04,961 [] [main] INFO  org.apache.coyote.http11.Http11NioProtocol [173]- Starting ProtocolHandler ["http-nio-8090"]
+2024-04-01 15:30:04,989 [] [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer [241]- Tomcat started on port 8090 (http) with context path ''
+2024-04-01 15:30:05,009 [] [main] INFO  com.whm.sea.SeaApplication [56]- Started SeaApplication in 3.0 seconds (process running for 3.613)
+2024-04-01 15:30:32,797 [] [main] INFO  com.whm.sea.SeaApplication [50]- Starting SeaApplication v0.0.1-SNAPSHOT using Java 22 with PID 32884 (E:\Gits\SEA\webapp\libserver\server-0.0.1-SNAPSHOT.jar started by whm in E:\Gits\SEA\webapp)
+2024-04-01 15:30:32,852 [] [main] INFO  com.whm.sea.SeaApplication [660]- The following 1 profile is active: "dev"
+2024-04-01 15:30:33,450 [] [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate [139]- Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-04-01 15:30:33,466 [] [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate [208]- Finished Spring Data repository scanning in 10 ms. Found 0 JPA repository interfaces.
+2024-04-01 15:30:33,984 [] [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer [109]- Tomcat initialized with port 8090 (http)
+2024-04-01 15:30:33,992 [] [main] INFO  org.apache.coyote.http11.Http11NioProtocol [173]- Initializing ProtocolHandler ["http-nio-8090"]
+2024-04-01 15:30:33,996 [] [main] INFO  org.apache.catalina.core.StandardService [173]- Starting service [Tomcat]
+2024-04-01 15:30:33,996 [] [main] INFO  org.apache.catalina.core.StandardEngine [173]- Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-04-01 15:30:34,024 [] [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [173]- Initializing Spring embedded WebApplicationContext
+2024-04-01 15:30:34,024 [] [main] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [296]- Root WebApplicationContext: initialization completed in 1100 ms
+2024-04-01 15:30:34,199 [] [main] INFO  com.zaxxer.hikari.HikariDataSource [110]- HikariPool-1 - Starting...
+2024-04-01 15:30:34,359 [] [main] INFO  com.zaxxer.hikari.pool.HikariPool [565]- HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:dce0d88f-29ed-49a5-a1e8-2665e53c0725 user=SA
+2024-04-01 15:30:34,363 [] [main] INFO  com.zaxxer.hikari.HikariDataSource [123]- HikariPool-1 - Start completed.
+2024-04-01 15:30:34,403 [] [main] INFO  org.hibernate.jpa.internal.util.LogHelper [31]- HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-04-01 15:30:34,503 [] [main] INFO  org.hibernate.Version [44]- HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-04-01 15:30:34,539 [] [main] INFO  org.hibernate.cache.internal.RegionFactoryInitiator [50]- HHH000026: Second-level cache disabled
+2024-04-01 15:30:34,805 [] [main] INFO  org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo [87]- No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-04-01 15:30:35,036 [] [main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [58]- HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-04-01 15:30:35,040 [] [main] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [437]- Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-04-01 15:30:35,072 [] [main] WARN  o.s.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [232]- spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-04-01 15:30:35,447 [] [main] INFO  org.apache.coyote.http11.Http11NioProtocol [173]- Starting ProtocolHandler ["http-nio-8090"]
+2024-04-01 15:30:35,479 [] [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer [241]- Tomcat started on port 8090 (http) with context path ''
+2024-04-01 15:30:35,495 [] [main] INFO  com.whm.sea.SeaApplication [56]- Started SeaApplication in 3.128 seconds (process running for 3.743)
+2024-04-01 15:31:16,813 [] [main] INFO  com.whm.sea.SeaApplication [50]- Starting SeaApplication v0.0.1-SNAPSHOT using Java 22 with PID 16780 (E:\Gits\SEA\webapp\libserver\server-0.0.1-SNAPSHOT.jar started by whm in E:\Gits\SEA\webapp)
+2024-04-01 15:31:16,863 [] [main] INFO  com.whm.sea.SeaApplication [660]- The following 1 profile is active: "dev"
+2024-04-01 15:31:17,429 [] [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate [139]- Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-04-01 15:31:17,445 [] [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate [208]- Finished Spring Data repository scanning in 10 ms. Found 0 JPA repository interfaces.
+2024-04-01 15:31:17,917 [] [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer [109]- Tomcat initialized with port 8090 (http)
+2024-04-01 15:31:17,925 [] [main] INFO  org.apache.coyote.http11.Http11NioProtocol [173]- Initializing ProtocolHandler ["http-nio-8090"]
+2024-04-01 15:31:17,929 [] [main] INFO  org.apache.catalina.core.StandardService [173]- Starting service [Tomcat]
+2024-04-01 15:31:17,929 [] [main] INFO  org.apache.catalina.core.StandardEngine [173]- Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-04-01 15:31:17,957 [] [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [173]- Initializing Spring embedded WebApplicationContext
+2024-04-01 15:31:17,962 [] [main] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [296]- Root WebApplicationContext: initialization completed in 1030 ms
+2024-04-01 15:31:18,136 [] [main] INFO  com.zaxxer.hikari.HikariDataSource [110]- HikariPool-1 - Starting...
+2024-04-01 15:31:18,296 [] [main] INFO  com.zaxxer.hikari.pool.HikariPool [565]- HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:e18fba72-8a54-4b75-906f-84c63be11194 user=SA
+2024-04-01 15:31:18,296 [] [main] INFO  com.zaxxer.hikari.HikariDataSource [123]- HikariPool-1 - Start completed.
+2024-04-01 15:31:18,356 [] [main] INFO  org.hibernate.jpa.internal.util.LogHelper [31]- HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-04-01 15:31:18,440 [] [main] INFO  org.hibernate.Version [44]- HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-04-01 15:31:18,477 [] [main] INFO  org.hibernate.cache.internal.RegionFactoryInitiator [50]- HHH000026: Second-level cache disabled
+2024-04-01 15:31:18,751 [] [main] INFO  org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo [87]- No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-04-01 15:31:18,969 [] [main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [58]- HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-04-01 15:31:18,973 [] [main] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [437]- Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-04-01 15:31:19,009 [] [main] WARN  o.s.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [232]- spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-04-01 15:31:19,387 [] [main] INFO  org.apache.coyote.http11.Http11NioProtocol [173]- Starting ProtocolHandler ["http-nio-8090"]
+2024-04-01 15:31:19,411 [] [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer [241]- Tomcat started on port 8090 (http) with context path ''
+2024-04-01 15:31:19,431 [] [main] INFO  com.whm.sea.SeaApplication [56]- Started SeaApplication in 3.059 seconds (process running for 3.689)
+2024-04-01 15:53:15,221 [] [main] INFO  com.whm.sea.SeaApplication [50]- Starting SeaApplication v0.0.1-SNAPSHOT using Java 22 with PID 25824 (E:\Gits\SEA\webapp\libserver\server-0.0.1-SNAPSHOT.jar started by whm in E:\Gits\SEA\webapp)
+2024-04-01 15:53:15,278 [] [main] INFO  com.whm.sea.SeaApplication [660]- The following 1 profile is active: "dev"
+2024-04-01 15:53:15,833 [] [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate [139]- Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-04-01 15:53:15,849 [] [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate [208]- Finished Spring Data repository scanning in 10 ms. Found 0 JPA repository interfaces.
+2024-04-01 15:53:16,354 [] [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer [109]- Tomcat initialized with port 8090 (http)
+2024-04-01 15:53:16,362 [] [main] INFO  org.apache.coyote.http11.Http11NioProtocol [173]- Initializing ProtocolHandler ["http-nio-8090"]
+2024-04-01 15:53:16,362 [] [main] INFO  org.apache.catalina.core.StandardService [173]- Starting service [Tomcat]
+2024-04-01 15:53:16,366 [] [main] INFO  org.apache.catalina.core.StandardEngine [173]- Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-04-01 15:53:16,395 [] [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [173]- Initializing Spring embedded WebApplicationContext
+2024-04-01 15:53:16,395 [] [main] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [296]- Root WebApplicationContext: initialization completed in 1051 ms
+2024-04-01 15:53:16,571 [] [main] INFO  com.zaxxer.hikari.HikariDataSource [110]- HikariPool-1 - Starting...
+2024-04-01 15:53:16,741 [] [main] INFO  com.zaxxer.hikari.pool.HikariPool [565]- HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:a089a4f2-d3b2-4a58-a840-48195923df64 user=SA
+2024-04-01 15:53:16,745 [] [main] INFO  com.zaxxer.hikari.HikariDataSource [123]- HikariPool-1 - Start completed.
+2024-04-01 15:53:16,785 [] [main] INFO  org.hibernate.jpa.internal.util.LogHelper [31]- HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-04-01 15:53:16,885 [] [main] INFO  org.hibernate.Version [44]- HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-04-01 15:53:16,914 [] [main] INFO  org.hibernate.cache.internal.RegionFactoryInitiator [50]- HHH000026: Second-level cache disabled
+2024-04-01 15:53:17,174 [] [main] INFO  org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo [87]- No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-04-01 15:53:17,411 [] [main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [58]- HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-04-01 15:53:17,415 [] [main] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [437]- Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-04-01 15:53:17,451 [] [main] WARN  o.s.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [232]- spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-04-01 15:53:17,801 [] [main] INFO  org.apache.coyote.http11.Http11NioProtocol [173]- Starting ProtocolHandler ["http-nio-8090"]
+2024-04-01 15:53:17,829 [] [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer [241]- Tomcat started on port 8090 (http) with context path ''
+2024-04-01 15:53:17,846 [] [main] INFO  com.whm.sea.SeaApplication [56]- Started SeaApplication in 3.065 seconds (process running for 3.648)
+2024-04-01 15:58:30,898 [] [main] INFO  com.whm.sea.SeaApplication [50]- Starting SeaApplication v0.0.1-SNAPSHOT using Java 22 with PID 17936 (E:\Gits\SEA\webapp\libserver\server-0.0.1-SNAPSHOT.jar started by whm in E:\Gits\SEA\webapp)
+2024-04-01 15:58:30,952 [] [main] INFO  com.whm.sea.SeaApplication [660]- The following 1 profile is active: "dev"
+2024-04-01 15:58:31,547 [] [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate [139]- Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-04-01 15:58:31,559 [] [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate [208]- Finished Spring Data repository scanning in 8 ms. Found 0 JPA repository interfaces.
+2024-04-01 15:58:32,072 [] [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer [109]- Tomcat initialized with port 8090 (http)
+2024-04-01 15:58:32,084 [] [main] INFO  org.apache.coyote.http11.Http11NioProtocol [173]- Initializing ProtocolHandler ["http-nio-8090"]
+2024-04-01 15:58:32,088 [] [main] INFO  org.apache.catalina.core.StandardService [173]- Starting service [Tomcat]
+2024-04-01 15:58:32,088 [] [main] INFO  org.apache.catalina.core.StandardEngine [173]- Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-04-01 15:58:32,121 [] [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [173]- Initializing Spring embedded WebApplicationContext
+2024-04-01 15:58:32,121 [] [main] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [296]- Root WebApplicationContext: initialization completed in 1090 ms
+2024-04-01 15:58:32,252 [] [main] INFO  com.zaxxer.hikari.HikariDataSource [110]- HikariPool-1 - Starting...
+2024-04-01 15:58:32,407 [] [main] INFO  com.zaxxer.hikari.pool.HikariPool [565]- HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:2466a8cf-f150-4e41-b17d-afff0372a3fb user=SA
+2024-04-01 15:58:32,408 [] [main] INFO  com.zaxxer.hikari.HikariDataSource [123]- HikariPool-1 - Start completed.
+2024-04-01 15:58:32,444 [] [main] INFO  org.hibernate.jpa.internal.util.LogHelper [31]- HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-04-01 15:58:32,528 [] [main] INFO  org.hibernate.Version [44]- HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-04-01 15:58:32,560 [] [main] INFO  org.hibernate.cache.internal.RegionFactoryInitiator [50]- HHH000026: Second-level cache disabled
+2024-04-01 15:58:32,841 [] [main] INFO  org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo [87]- No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-04-01 15:58:33,081 [] [main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [58]- HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-04-01 15:58:33,081 [] [main] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [437]- Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-04-01 15:58:33,113 [] [main] WARN  o.s.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [232]- spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-04-01 15:58:33,517 [] [main] INFO  org.apache.coyote.http11.Http11NioProtocol [173]- Starting ProtocolHandler ["http-nio-8090"]
+2024-04-01 15:58:33,545 [] [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer [241]- Tomcat started on port 8090 (http) with context path ''
+2024-04-01 15:58:33,561 [] [main] INFO  com.whm.sea.SeaApplication [56]- Started SeaApplication in 3.098 seconds (process running for 3.662)
+2024-04-01 15:58:54,433 [] [main] INFO  com.whm.sea.SeaApplication [50]- Starting SeaApplication v0.0.1-SNAPSHOT using Java 22 with PID 33728 (E:\Gits\SEA\webapp\libserver\server-0.0.1-SNAPSHOT.jar started by whm in E:\Gits\SEA\webapp)
+2024-04-01 15:58:54,486 [] [main] INFO  com.whm.sea.SeaApplication [660]- The following 1 profile is active: "dev"
+2024-04-01 15:58:55,049 [] [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate [139]- Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-04-01 15:58:55,065 [] [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate [208]- Finished Spring Data repository scanning in 10 ms. Found 0 JPA repository interfaces.
+2024-04-01 15:58:55,591 [] [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer [109]- Tomcat initialized with port 8090 (http)
+2024-04-01 15:58:55,603 [] [main] INFO  org.apache.coyote.http11.Http11NioProtocol [173]- Initializing ProtocolHandler ["http-nio-8090"]
+2024-04-01 15:58:55,603 [] [main] INFO  org.apache.catalina.core.StandardService [173]- Starting service [Tomcat]
+2024-04-01 15:58:55,603 [] [main] INFO  org.apache.catalina.core.StandardEngine [173]- Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-04-01 15:58:55,643 [] [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [173]- Initializing Spring embedded WebApplicationContext
+2024-04-01 15:58:55,647 [] [main] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [296]- Root WebApplicationContext: initialization completed in 1092 ms
+2024-04-01 15:58:55,825 [] [main] INFO  com.zaxxer.hikari.HikariDataSource [110]- HikariPool-1 - Starting...
+2024-04-01 15:58:55,966 [] [main] INFO  com.zaxxer.hikari.pool.HikariPool [565]- HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:a075c357-8135-4761-a9df-70ab593d414e user=SA
+2024-04-01 15:58:55,970 [] [main] INFO  com.zaxxer.hikari.HikariDataSource [123]- HikariPool-1 - Start completed.
+2024-04-01 15:58:56,011 [] [main] INFO  org.hibernate.jpa.internal.util.LogHelper [31]- HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-04-01 15:58:56,099 [] [main] INFO  org.hibernate.Version [44]- HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-04-01 15:58:56,134 [] [main] INFO  org.hibernate.cache.internal.RegionFactoryInitiator [50]- HHH000026: Second-level cache disabled
+2024-04-01 15:58:56,403 [] [main] INFO  org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo [87]- No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-04-01 15:58:56,653 [] [main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [58]- HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-04-01 15:58:56,657 [] [main] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [437]- Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-04-01 15:58:56,703 [] [main] WARN  o.s.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [232]- spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-04-01 15:58:57,173 [] [main] INFO  org.apache.coyote.http11.Http11NioProtocol [173]- Starting ProtocolHandler ["http-nio-8090"]
+2024-04-01 15:58:57,209 [] [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer [241]- Tomcat started on port 8090 (http) with context path ''
+2024-04-01 15:58:57,233 [] [main] INFO  com.whm.sea.SeaApplication [56]- Started SeaApplication in 3.27 seconds (process running for 3.882)
+2024-04-01 15:59:10,013 [] [main] INFO  com.whm.sea.SeaApplication [50]- Starting SeaApplication v0.0.1-SNAPSHOT using Java 22 with PID 31664 (E:\Gits\SEA\webapp\libserver\server-0.0.1-SNAPSHOT.jar started by whm in E:\Gits\SEA\webapp)
+2024-04-01 15:59:10,070 [] [main] INFO  com.whm.sea.SeaApplication [660]- The following 1 profile is active: "dev"
+2024-04-01 15:59:10,646 [] [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate [139]- Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-04-01 15:59:10,667 [] [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate [208]- Finished Spring Data repository scanning in 11 ms. Found 0 JPA repository interfaces.
+2024-04-01 15:59:11,216 [] [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer [109]- Tomcat initialized with port 8090 (http)
+2024-04-01 15:59:11,232 [] [main] INFO  org.apache.coyote.http11.Http11NioProtocol [173]- Initializing ProtocolHandler ["http-nio-8090"]
+2024-04-01 15:59:11,236 [] [main] INFO  org.apache.catalina.core.StandardService [173]- Starting service [Tomcat]
+2024-04-01 15:59:11,236 [] [main] INFO  org.apache.catalina.core.StandardEngine [173]- Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-04-01 15:59:11,276 [] [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [173]- Initializing Spring embedded WebApplicationContext
+2024-04-01 15:59:11,278 [] [main] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [296]- Root WebApplicationContext: initialization completed in 1139 ms
+2024-04-01 15:59:11,455 [] [main] INFO  com.zaxxer.hikari.HikariDataSource [110]- HikariPool-1 - Starting...
+2024-04-01 15:59:11,610 [] [main] INFO  com.zaxxer.hikari.pool.HikariPool [565]- HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:02c36351-4a04-4942-9760-8b3daf36c36b user=SA
+2024-04-01 15:59:11,610 [] [main] INFO  com.zaxxer.hikari.HikariDataSource [123]- HikariPool-1 - Start completed.
+2024-04-01 15:59:11,689 [] [main] INFO  org.hibernate.jpa.internal.util.LogHelper [31]- HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-04-01 15:59:11,791 [] [main] INFO  org.hibernate.Version [44]- HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-04-01 15:59:11,843 [] [main] INFO  org.hibernate.cache.internal.RegionFactoryInitiator [50]- HHH000026: Second-level cache disabled
+2024-04-01 15:59:12,191 [] [main] INFO  org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo [87]- No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-04-01 15:59:12,433 [] [main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [58]- HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-04-01 15:59:12,437 [] [main] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [437]- Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-04-01 15:59:12,469 [] [main] WARN  o.s.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [232]- spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-04-01 15:59:12,832 [] [main] INFO  org.apache.coyote.http11.Http11NioProtocol [173]- Starting ProtocolHandler ["http-nio-8090"]
+2024-04-01 15:59:12,856 [] [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer [241]- Tomcat started on port 8090 (http) with context path ''
+2024-04-01 15:59:12,876 [] [main] INFO  com.whm.sea.SeaApplication [56]- Started SeaApplication in 3.334 seconds (process running for 3.997)
+2024-04-01 15:59:48,206 [] [main] INFO  com.whm.sea.SeaApplication [50]- Starting SeaApplication v0.0.1-SNAPSHOT using Java 22 with PID 10744 (E:\Gits\SEA\webapp\libserver\server-0.0.1-SNAPSHOT.jar started by whm in E:\Gits\SEA\webapp)
+2024-04-01 15:59:48,261 [] [main] INFO  com.whm.sea.SeaApplication [660]- The following 1 profile is active: "dev"
+2024-04-01 15:59:48,842 [] [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate [139]- Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-04-01 15:59:48,858 [] [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate [208]- Finished Spring Data repository scanning in 10 ms. Found 0 JPA repository interfaces.
+2024-04-01 15:59:49,425 [] [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer [109]- Tomcat initialized with port 8090 (http)
+2024-04-01 15:59:49,433 [] [main] INFO  org.apache.coyote.http11.Http11NioProtocol [173]- Initializing ProtocolHandler ["http-nio-8090"]
+2024-04-01 15:59:49,437 [] [main] INFO  org.apache.catalina.core.StandardService [173]- Starting service [Tomcat]
+2024-04-01 15:59:49,437 [] [main] INFO  org.apache.catalina.core.StandardEngine [173]- Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-04-01 15:59:49,465 [] [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [173]- Initializing Spring embedded WebApplicationContext
+2024-04-01 15:59:49,469 [] [main] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [296]- Root WebApplicationContext: initialization completed in 1141 ms
+2024-04-01 15:59:49,639 [] [main] INFO  com.zaxxer.hikari.HikariDataSource [110]- HikariPool-1 - Starting...
+2024-04-01 15:59:49,822 [] [main] INFO  com.zaxxer.hikari.pool.HikariPool [565]- HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:cc973faf-9268-49a8-9138-454387e59716 user=SA
+2024-04-01 15:59:49,822 [] [main] INFO  com.zaxxer.hikari.HikariDataSource [123]- HikariPool-1 - Start completed.
+2024-04-01 15:59:49,869 [] [main] INFO  org.hibernate.jpa.internal.util.LogHelper [31]- HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-04-01 15:59:49,931 [] [main] INFO  org.hibernate.Version [44]- HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-04-01 15:59:49,963 [] [main] INFO  org.hibernate.cache.internal.RegionFactoryInitiator [50]- HHH000026: Second-level cache disabled
+2024-04-01 15:59:50,196 [] [main] INFO  org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo [87]- No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-04-01 15:59:50,513 [] [main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [58]- HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-04-01 15:59:50,517 [] [main] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [437]- Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-04-01 15:59:50,564 [] [main] WARN  o.s.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [232]- spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-04-01 15:59:50,939 [] [main] INFO  org.apache.coyote.http11.Http11NioProtocol [173]- Starting ProtocolHandler ["http-nio-8090"]
+2024-04-01 15:59:50,971 [] [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer [241]- Tomcat started on port 8090 (http) with context path ''
+2024-04-01 15:59:50,988 [] [main] INFO  com.whm.sea.SeaApplication [56]- Started SeaApplication in 3.238 seconds (process running for 3.857)
+2024-04-01 16:00:17,547 [] [main] INFO  com.whm.sea.SeaApplication [50]- Starting SeaApplication v0.0.1-SNAPSHOT using Java 22 with PID 30064 (E:\Gits\SEA\webapp\libserver\server-0.0.1-SNAPSHOT.jar started by whm in E:\Gits\SEA\webapp)
+2024-04-01 16:00:17,621 [] [main] INFO  com.whm.sea.SeaApplication [660]- The following 1 profile is active: "dev"
+2024-04-01 16:00:18,209 [] [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate [139]- Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-04-01 16:00:18,226 [] [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate [208]- Finished Spring Data repository scanning in 10 ms. Found 0 JPA repository interfaces.
+2024-04-01 16:00:18,735 [] [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer [109]- Tomcat initialized with port 8090 (http)
+2024-04-01 16:00:18,750 [] [main] INFO  org.apache.coyote.http11.Http11NioProtocol [173]- Initializing ProtocolHandler ["http-nio-8090"]
+2024-04-01 16:00:18,750 [] [main] INFO  org.apache.catalina.core.StandardService [173]- Starting service [Tomcat]
+2024-04-01 16:00:18,750 [] [main] INFO  org.apache.catalina.core.StandardEngine [173]- Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-04-01 16:00:18,782 [] [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [173]- Initializing Spring embedded WebApplicationContext
+2024-04-01 16:00:18,782 [] [main] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [296]- Root WebApplicationContext: initialization completed in 1093 ms
+2024-04-01 16:00:18,942 [] [main] INFO  com.zaxxer.hikari.HikariDataSource [110]- HikariPool-1 - Starting...
+2024-04-01 16:00:19,119 [] [main] INFO  com.zaxxer.hikari.pool.HikariPool [565]- HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:700973be-364b-4002-b55e-a71f47b8b5ef user=SA
+2024-04-01 16:00:19,121 [] [main] INFO  com.zaxxer.hikari.HikariDataSource [123]- HikariPool-1 - Start completed.
+2024-04-01 16:00:19,167 [] [main] INFO  org.hibernate.jpa.internal.util.LogHelper [31]- HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-04-01 16:00:19,261 [] [main] INFO  org.hibernate.Version [44]- HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-04-01 16:00:19,292 [] [main] INFO  org.hibernate.cache.internal.RegionFactoryInitiator [50]- HHH000026: Second-level cache disabled
+2024-04-01 16:00:19,543 [] [main] INFO  org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo [87]- No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-04-01 16:00:19,766 [] [main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [58]- HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-04-01 16:00:19,766 [] [main] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [437]- Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-04-01 16:00:19,813 [] [main] WARN  o.s.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [232]- spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-04-01 16:00:20,160 [] [main] INFO  org.apache.coyote.http11.Http11NioProtocol [173]- Starting ProtocolHandler ["http-nio-8090"]
+2024-04-01 16:00:20,177 [] [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer [241]- Tomcat started on port 8090 (http) with context path ''
+2024-04-01 16:00:20,191 [] [main] INFO  com.whm.sea.SeaApplication [56]- Started SeaApplication in 3.079 seconds (process running for 3.679)
+2024-04-01 16:02:32,366 [] [main] INFO  com.whm.sea.SeaApplication [50]- Starting SeaApplication v0.0.1-SNAPSHOT using Java 22 with PID 26188 (E:\Gits\SEA\webapp\libserver\server-0.0.1-SNAPSHOT.jar started by whm in E:\Gits\SEA\webapp)
+2024-04-01 16:02:32,421 [] [main] INFO  com.whm.sea.SeaApplication [660]- The following 1 profile is active: "dev"
+2024-04-01 16:02:33,002 [] [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate [139]- Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-04-01 16:02:33,018 [] [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate [208]- Finished Spring Data repository scanning in 10 ms. Found 0 JPA repository interfaces.
+2024-04-01 16:02:33,507 [] [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer [109]- Tomcat initialized with port 8090 (http)
+2024-04-01 16:02:33,519 [] [main] INFO  org.apache.coyote.http11.Http11NioProtocol [173]- Initializing ProtocolHandler ["http-nio-8090"]
+2024-04-01 16:02:33,523 [] [main] INFO  org.apache.catalina.core.StandardService [173]- Starting service [Tomcat]
+2024-04-01 16:02:33,523 [] [main] INFO  org.apache.catalina.core.StandardEngine [173]- Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-04-01 16:02:33,563 [] [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [173]- Initializing Spring embedded WebApplicationContext
+2024-04-01 16:02:33,563 [] [main] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [296]- Root WebApplicationContext: initialization completed in 1077 ms
+2024-04-01 16:02:33,735 [] [main] INFO  com.zaxxer.hikari.HikariDataSource [110]- HikariPool-1 - Starting...
+2024-04-01 16:02:33,879 [] [main] INFO  com.zaxxer.hikari.pool.HikariPool [565]- HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:0e037749-3d80-44b2-aadc-97148ada5ce0 user=SA
+2024-04-01 16:02:33,883 [] [main] INFO  com.zaxxer.hikari.HikariDataSource [123]- HikariPool-1 - Start completed.
+2024-04-01 16:02:33,927 [] [main] INFO  org.hibernate.jpa.internal.util.LogHelper [31]- HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-04-01 16:02:34,018 [] [main] INFO  org.hibernate.Version [44]- HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-04-01 16:02:34,054 [] [main] INFO  org.hibernate.cache.internal.RegionFactoryInitiator [50]- HHH000026: Second-level cache disabled
+2024-04-01 16:02:34,332 [] [main] INFO  org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo [87]- No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-04-01 16:02:34,553 [] [main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [58]- HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-04-01 16:02:34,557 [] [main] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [437]- Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-04-01 16:02:34,606 [] [main] WARN  o.s.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [232]- spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-04-01 16:02:35,064 [] [main] INFO  org.apache.coyote.http11.Http11NioProtocol [173]- Starting ProtocolHandler ["http-nio-8090"]
+2024-04-01 16:02:35,092 [] [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer [241]- Tomcat started on port 8090 (http) with context path ''
+2024-04-01 16:02:35,112 [] [main] INFO  com.whm.sea.SeaApplication [56]- Started SeaApplication in 3.198 seconds (process running for 3.798)
+2024-04-01 16:03:13,056 [] [main] INFO  com.whm.sea.SeaApplication [50]- Starting SeaApplication v0.0.1-SNAPSHOT using Java 22 with PID 32140 (E:\Gits\SEA\webapp\libserver\server-0.0.1-SNAPSHOT.jar started by whm in E:\Gits\SEA\webapp)
+2024-04-01 16:03:13,111 [] [main] INFO  com.whm.sea.SeaApplication [660]- The following 1 profile is active: "dev"
+2024-04-01 16:03:13,669 [] [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate [139]- Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-04-01 16:03:13,685 [] [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate [208]- Finished Spring Data repository scanning in 10 ms. Found 0 JPA repository interfaces.
+2024-04-01 16:03:14,223 [] [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer [109]- Tomcat initialized with port 8090 (http)
+2024-04-01 16:03:14,231 [] [main] INFO  org.apache.coyote.http11.Http11NioProtocol [173]- Initializing ProtocolHandler ["http-nio-8090"]
+2024-04-01 16:03:14,235 [] [main] INFO  org.apache.catalina.core.StandardService [173]- Starting service [Tomcat]
+2024-04-01 16:03:14,235 [] [main] INFO  org.apache.catalina.core.StandardEngine [173]- Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-04-01 16:03:14,263 [] [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [173]- Initializing Spring embedded WebApplicationContext
+2024-04-01 16:03:14,267 [] [main] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [296]- Root WebApplicationContext: initialization completed in 1088 ms
+2024-04-01 16:03:14,440 [] [main] INFO  com.zaxxer.hikari.HikariDataSource [110]- HikariPool-1 - Starting...
+2024-04-01 16:03:14,613 [] [main] INFO  com.zaxxer.hikari.pool.HikariPool [565]- HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:b31e9a65-9849-4624-8fcc-5cf961beded9 user=SA
+2024-04-01 16:03:14,617 [] [main] INFO  com.zaxxer.hikari.HikariDataSource [123]- HikariPool-1 - Start completed.
+2024-04-01 16:03:14,665 [] [main] INFO  org.hibernate.jpa.internal.util.LogHelper [31]- HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-04-01 16:03:14,757 [] [main] INFO  org.hibernate.Version [44]- HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-04-01 16:03:14,793 [] [main] INFO  org.hibernate.cache.internal.RegionFactoryInitiator [50]- HHH000026: Second-level cache disabled
+2024-04-01 16:03:15,064 [] [main] INFO  org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo [87]- No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-04-01 16:03:15,298 [] [main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [58]- HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-04-01 16:03:15,302 [] [main] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [437]- Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-04-01 16:03:15,342 [] [main] WARN  o.s.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [232]- spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-04-01 16:03:15,763 [] [main] INFO  org.apache.coyote.http11.Http11NioProtocol [173]- Starting ProtocolHandler ["http-nio-8090"]
+2024-04-01 16:03:15,795 [] [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer [241]- Tomcat started on port 8090 (http) with context path ''
+2024-04-01 16:03:15,815 [] [main] INFO  com.whm.sea.SeaApplication [56]- Started SeaApplication in 3.201 seconds (process running for 3.819)
+2024-04-01 16:03:34,056 [] [main] INFO  com.whm.sea.SeaApplication [50]- Starting SeaApplication v0.0.1-SNAPSHOT using Java 22 with PID 24316 (E:\Gits\SEA\webapp\libserver\server-0.0.1-SNAPSHOT.jar started by whm in E:\Gits\SEA\webapp)
+2024-04-01 16:03:34,118 [] [main] INFO  com.whm.sea.SeaApplication [660]- The following 1 profile is active: "dev"
+2024-04-01 16:03:34,694 [] [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate [139]- Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-04-01 16:03:34,710 [] [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate [208]- Finished Spring Data repository scanning in 9 ms. Found 0 JPA repository interfaces.
+2024-04-01 16:03:35,249 [] [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer [109]- Tomcat initialized with port 8090 (http)
+2024-04-01 16:03:35,261 [] [main] INFO  org.apache.coyote.http11.Http11NioProtocol [173]- Initializing ProtocolHandler ["http-nio-8090"]
+2024-04-01 16:03:35,265 [] [main] INFO  org.apache.catalina.core.StandardService [173]- Starting service [Tomcat]
+2024-04-01 16:03:35,269 [] [main] INFO  org.apache.catalina.core.StandardEngine [173]- Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-04-01 16:03:35,305 [] [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [173]- Initializing Spring embedded WebApplicationContext
+2024-04-01 16:03:35,305 [] [main] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [296]- Root WebApplicationContext: initialization completed in 1124 ms
+2024-04-01 16:03:35,487 [] [main] INFO  com.zaxxer.hikari.HikariDataSource [110]- HikariPool-1 - Starting...
+2024-04-01 16:03:35,637 [] [main] INFO  com.zaxxer.hikari.pool.HikariPool [565]- HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:9d6bacdc-fdcd-467b-90b9-fa48f3206d64 user=SA
+2024-04-01 16:03:35,641 [] [main] INFO  com.zaxxer.hikari.HikariDataSource [123]- HikariPool-1 - Start completed.
+2024-04-01 16:03:35,688 [] [main] INFO  org.hibernate.jpa.internal.util.LogHelper [31]- HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-04-01 16:03:35,780 [] [main] INFO  org.hibernate.Version [44]- HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-04-01 16:03:35,815 [] [main] INFO  org.hibernate.cache.internal.RegionFactoryInitiator [50]- HHH000026: Second-level cache disabled
+2024-04-01 16:03:36,072 [] [main] INFO  org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo [87]- No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-04-01 16:03:36,313 [] [main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [58]- HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-04-01 16:03:36,313 [] [main] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [437]- Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-04-01 16:03:36,345 [] [main] WARN  o.s.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [232]- spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-04-01 16:03:36,669 [] [main] INFO  org.apache.coyote.http11.Http11NioProtocol [173]- Starting ProtocolHandler ["http-nio-8090"]
+2024-04-01 16:03:36,694 [] [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer [241]- Tomcat started on port 8090 (http) with context path ''
+2024-04-01 16:03:36,714 [] [main] INFO  com.whm.sea.SeaApplication [56]- Started SeaApplication in 3.106 seconds (process running for 3.729)
+2024-04-01 16:25:38,118 [] [main] INFO  com.whm.sea.SeaApplication [50]- Starting SeaApplication v0.0.1-SNAPSHOT using Java 22 with PID 4208 (E:\Gits\SEA\webapp\libserver\server-0.0.1-SNAPSHOT.jar started by whm in E:\Gits\SEA\webapp)
+2024-04-01 16:25:38,171 [] [main] INFO  com.whm.sea.SeaApplication [660]- The following 1 profile is active: "dev"
+2024-04-01 16:25:38,776 [] [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate [139]- Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-04-01 16:25:38,790 [] [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate [208]- Finished Spring Data repository scanning in 9 ms. Found 0 JPA repository interfaces.
+2024-04-01 16:25:39,292 [] [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer [109]- Tomcat initialized with port 8090 (http)
+2024-04-01 16:25:39,300 [] [main] INFO  org.apache.coyote.http11.Http11NioProtocol [173]- Initializing ProtocolHandler ["http-nio-8090"]
+2024-04-01 16:25:39,304 [] [main] INFO  org.apache.catalina.core.StandardService [173]- Starting service [Tomcat]
+2024-04-01 16:25:39,304 [] [main] INFO  org.apache.catalina.core.StandardEngine [173]- Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-04-01 16:25:39,332 [] [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [173]- Initializing Spring embedded WebApplicationContext
+2024-04-01 16:25:39,332 [] [main] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [296]- Root WebApplicationContext: initialization completed in 1090 ms
+2024-04-01 16:25:39,508 [] [main] INFO  com.zaxxer.hikari.HikariDataSource [110]- HikariPool-1 - Starting...
+2024-04-01 16:25:39,677 [] [main] INFO  com.zaxxer.hikari.pool.HikariPool [565]- HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:0536feef-367c-406e-8726-a1c5ae5ef8f2 user=SA
+2024-04-01 16:25:39,677 [] [main] INFO  com.zaxxer.hikari.HikariDataSource [123]- HikariPool-1 - Start completed.
+2024-04-01 16:25:39,720 [] [main] INFO  org.hibernate.jpa.internal.util.LogHelper [31]- HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-04-01 16:25:39,809 [] [main] INFO  org.hibernate.Version [44]- HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-04-01 16:25:39,840 [] [main] INFO  org.hibernate.cache.internal.RegionFactoryInitiator [50]- HHH000026: Second-level cache disabled
+2024-04-01 16:25:40,121 [] [main] INFO  org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo [87]- No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-04-01 16:25:40,349 [] [main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [58]- HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-04-01 16:25:40,353 [] [main] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [437]- Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-04-01 16:25:40,389 [] [main] WARN  o.s.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [232]- spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-04-01 16:25:40,842 [] [main] INFO  org.apache.coyote.http11.Http11NioProtocol [173]- Starting ProtocolHandler ["http-nio-8090"]
+2024-04-01 16:25:40,880 [] [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer [241]- Tomcat started on port 8090 (http) with context path ''
+2024-04-01 16:25:40,900 [] [main] INFO  com.whm.sea.SeaApplication [56]- Started SeaApplication in 3.232 seconds (process running for 3.828)
+2024-04-01 16:26:18,093 [] [main] INFO  com.whm.sea.SeaApplication [50]- Starting SeaApplication v0.0.1-SNAPSHOT using Java 22 with PID 2540 (E:\Gits\SEA\webapp\libserver\server-0.0.1-SNAPSHOT.jar started by whm in E:\Gits\SEA\webapp)
+2024-04-01 16:26:18,147 [] [main] INFO  com.whm.sea.SeaApplication [660]- The following 1 profile is active: "dev"
+2024-04-01 16:26:18,742 [] [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate [139]- Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-04-01 16:26:18,762 [] [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate [208]- Finished Spring Data repository scanning in 12 ms. Found 0 JPA repository interfaces.
+2024-04-01 16:26:19,303 [] [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer [109]- Tomcat initialized with port 8090 (http)
+2024-04-01 16:26:19,315 [] [main] INFO  org.apache.coyote.http11.Http11NioProtocol [173]- Initializing ProtocolHandler ["http-nio-8090"]
+2024-04-01 16:26:19,315 [] [main] INFO  org.apache.catalina.core.StandardService [173]- Starting service [Tomcat]
+2024-04-01 16:26:19,315 [] [main] INFO  org.apache.catalina.core.StandardEngine [173]- Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-04-01 16:26:19,355 [] [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [173]- Initializing Spring embedded WebApplicationContext
+2024-04-01 16:26:19,355 [] [main] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [296]- Root WebApplicationContext: initialization completed in 1147 ms
+2024-04-01 16:26:19,532 [] [main] INFO  com.zaxxer.hikari.HikariDataSource [110]- HikariPool-1 - Starting...
+2024-04-01 16:26:19,707 [] [main] INFO  com.zaxxer.hikari.pool.HikariPool [565]- HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:7c141c41-e72a-4134-9628-307f2bc2c183 user=SA
+2024-04-01 16:26:19,711 [] [main] INFO  com.zaxxer.hikari.HikariDataSource [123]- HikariPool-1 - Start completed.
+2024-04-01 16:26:19,751 [] [main] INFO  org.hibernate.jpa.internal.util.LogHelper [31]- HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-04-01 16:26:19,868 [] [main] INFO  org.hibernate.Version [44]- HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-04-01 16:26:19,903 [] [main] INFO  org.hibernate.cache.internal.RegionFactoryInitiator [50]- HHH000026: Second-level cache disabled
+2024-04-01 16:26:20,206 [] [main] INFO  org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo [87]- No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-04-01 16:26:20,440 [] [main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [58]- HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-04-01 16:26:20,440 [] [main] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [437]- Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-04-01 16:26:20,484 [] [main] WARN  o.s.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [232]- spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-04-01 16:26:20,897 [] [main] INFO  org.apache.coyote.http11.Http11NioProtocol [173]- Starting ProtocolHandler ["http-nio-8090"]
+2024-04-01 16:26:20,925 [] [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer [241]- Tomcat started on port 8090 (http) with context path ''
+2024-04-01 16:26:20,945 [] [main] INFO  com.whm.sea.SeaApplication [56]- Started SeaApplication in 3.318 seconds (process running for 3.934)
+2024-04-01 16:26:42,270 [] [main] INFO  com.whm.sea.SeaApplication [50]- Starting SeaApplication v0.0.1-SNAPSHOT using Java 22 with PID 30004 (E:\Gits\SEA\webapp\libserver\server-0.0.1-SNAPSHOT.jar started by whm in E:\Gits\SEA\webapp)
+2024-04-01 16:26:42,327 [] [main] INFO  com.whm.sea.SeaApplication [660]- The following 1 profile is active: "dev"
+2024-04-01 16:26:42,928 [] [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate [139]- Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-04-01 16:26:42,944 [] [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate [208]- Finished Spring Data repository scanning in 9 ms. Found 0 JPA repository interfaces.
+2024-04-01 16:26:43,425 [] [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer [109]- Tomcat initialized with port 8090 (http)
+2024-04-01 16:26:43,437 [] [main] INFO  org.apache.coyote.http11.Http11NioProtocol [173]- Initializing ProtocolHandler ["http-nio-8090"]
+2024-04-01 16:26:43,441 [] [main] INFO  org.apache.catalina.core.StandardService [173]- Starting service [Tomcat]
+2024-04-01 16:26:43,441 [] [main] INFO  org.apache.catalina.core.StandardEngine [173]- Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-04-01 16:26:43,480 [] [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [173]- Initializing Spring embedded WebApplicationContext
+2024-04-01 16:26:43,480 [] [main] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [296]- Root WebApplicationContext: initialization completed in 1073 ms
+2024-04-01 16:26:43,689 [] [main] INFO  com.zaxxer.hikari.HikariDataSource [110]- HikariPool-1 - Starting...
+2024-04-01 16:26:43,872 [] [main] INFO  com.zaxxer.hikari.pool.HikariPool [565]- HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:d3847f8e-e157-4571-a7bf-4e965476e6bd user=SA
+2024-04-01 16:26:43,872 [] [main] INFO  com.zaxxer.hikari.HikariDataSource [123]- HikariPool-1 - Start completed.
+2024-04-01 16:26:43,920 [] [main] INFO  org.hibernate.jpa.internal.util.LogHelper [31]- HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-04-01 16:26:44,010 [] [main] INFO  org.hibernate.Version [44]- HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-04-01 16:26:44,047 [] [main] INFO  org.hibernate.cache.internal.RegionFactoryInitiator [50]- HHH000026: Second-level cache disabled
+2024-04-01 16:26:44,404 [] [main] INFO  org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo [87]- No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-04-01 16:26:44,642 [] [main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [58]- HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-04-01 16:26:44,646 [] [main] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [437]- Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-04-01 16:26:44,691 [] [main] WARN  o.s.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [232]- spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-04-01 16:26:45,239 [] [main] INFO  org.apache.coyote.http11.Http11NioProtocol [173]- Starting ProtocolHandler ["http-nio-8090"]
+2024-04-01 16:26:45,279 [] [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer [241]- Tomcat started on port 8090 (http) with context path ''
+2024-04-01 16:26:45,299 [] [main] INFO  com.whm.sea.SeaApplication [56]- Started SeaApplication in 3.5 seconds (process running for 4.112)
+2024-04-01 16:27:30,866 [] [main] INFO  com.whm.sea.SeaApplication [50]- Starting SeaApplication v0.0.1-SNAPSHOT using Java 22 with PID 25824 (E:\Gits\SEA\webapp\libserver\server-0.0.1-SNAPSHOT.jar started by whm in E:\Gits\SEA\webapp)
+2024-04-01 16:27:30,920 [] [main] INFO  com.whm.sea.SeaApplication [660]- The following 1 profile is active: "dev"
+2024-04-01 16:27:31,524 [] [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate [139]- Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-04-01 16:27:31,541 [] [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate [208]- Finished Spring Data repository scanning in 9 ms. Found 0 JPA repository interfaces.
+2024-04-01 16:27:32,042 [] [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer [109]- Tomcat initialized with port 8090 (http)
+2024-04-01 16:27:32,050 [] [main] INFO  org.apache.coyote.http11.Http11NioProtocol [173]- Initializing ProtocolHandler ["http-nio-8090"]
+2024-04-01 16:27:32,054 [] [main] INFO  org.apache.catalina.core.StandardService [173]- Starting service [Tomcat]
+2024-04-01 16:27:32,054 [] [main] INFO  org.apache.catalina.core.StandardEngine [173]- Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-04-01 16:27:32,086 [] [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [173]- Initializing Spring embedded WebApplicationContext
+2024-04-01 16:27:32,090 [] [main] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [296]- Root WebApplicationContext: initialization completed in 1103 ms
+2024-04-01 16:27:32,264 [] [main] INFO  com.zaxxer.hikari.HikariDataSource [110]- HikariPool-1 - Starting...
+2024-04-01 16:27:32,424 [] [main] INFO  com.zaxxer.hikari.pool.HikariPool [565]- HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:918c767e-d9b8-48b0-9e7c-ac57fa5e47a1 user=SA
+2024-04-01 16:27:32,424 [] [main] INFO  com.zaxxer.hikari.HikariDataSource [123]- HikariPool-1 - Start completed.
+2024-04-01 16:27:32,468 [] [main] INFO  org.hibernate.jpa.internal.util.LogHelper [31]- HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-04-01 16:27:32,555 [] [main] INFO  org.hibernate.Version [44]- HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-04-01 16:27:32,591 [] [main] INFO  org.hibernate.cache.internal.RegionFactoryInitiator [50]- HHH000026: Second-level cache disabled
+2024-04-01 16:27:32,895 [] [main] INFO  org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo [87]- No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-04-01 16:27:33,124 [] [main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [58]- HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-04-01 16:27:33,124 [] [main] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [437]- Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-04-01 16:27:33,164 [] [main] WARN  o.s.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [232]- spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-04-01 16:27:33,576 [] [main] INFO  org.apache.coyote.http11.Http11NioProtocol [173]- Starting ProtocolHandler ["http-nio-8090"]
+2024-04-01 16:27:33,600 [] [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer [241]- Tomcat started on port 8090 (http) with context path ''
+2024-04-01 16:27:33,621 [] [main] INFO  com.whm.sea.SeaApplication [56]- Started SeaApplication in 3.204 seconds (process running for 3.827)
+2024-04-01 16:28:01,321 [] [main] INFO  com.whm.sea.SeaApplication [50]- Starting SeaApplication v0.0.1-SNAPSHOT using Java 22 with PID 10064 (E:\Gits\SEA\webapp\libserver\server-0.0.1-SNAPSHOT.jar started by whm in E:\Gits\SEA\webapp)
+2024-04-01 16:28:01,380 [] [main] INFO  com.whm.sea.SeaApplication [660]- The following 1 profile is active: "dev"
+2024-04-01 16:28:01,984 [] [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate [139]- Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-04-01 16:28:02,000 [] [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate [208]- Finished Spring Data repository scanning in 10 ms. Found 0 JPA repository interfaces.
+2024-04-01 16:28:02,459 [] [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer [109]- Tomcat initialized with port 8090 (http)
+2024-04-01 16:28:02,467 [] [main] INFO  org.apache.coyote.http11.Http11NioProtocol [173]- Initializing ProtocolHandler ["http-nio-8090"]
+2024-04-01 16:28:02,471 [] [main] INFO  org.apache.catalina.core.StandardService [173]- Starting service [Tomcat]
+2024-04-01 16:28:02,471 [] [main] INFO  org.apache.catalina.core.StandardEngine [173]- Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-04-01 16:28:02,504 [] [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [173]- Initializing Spring embedded WebApplicationContext
+2024-04-01 16:28:02,504 [] [main] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [296]- Root WebApplicationContext: initialization completed in 1046 ms
+2024-04-01 16:28:02,687 [] [main] INFO  com.zaxxer.hikari.HikariDataSource [110]- HikariPool-1 - Starting...
+2024-04-01 16:28:02,847 [] [main] INFO  com.zaxxer.hikari.pool.HikariPool [565]- HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:56bd8a01-9308-421c-a04a-7ee7b9bdf0a4 user=SA
+2024-04-01 16:28:02,851 [] [main] INFO  com.zaxxer.hikari.HikariDataSource [123]- HikariPool-1 - Start completed.
+2024-04-01 16:28:02,911 [] [main] INFO  org.hibernate.jpa.internal.util.LogHelper [31]- HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-04-01 16:28:02,983 [] [main] INFO  org.hibernate.Version [44]- HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-04-01 16:28:03,027 [] [main] INFO  org.hibernate.cache.internal.RegionFactoryInitiator [50]- HHH000026: Second-level cache disabled
+2024-04-01 16:28:03,376 [] [main] INFO  org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo [87]- No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-04-01 16:28:03,617 [] [main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [58]- HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-04-01 16:28:03,621 [] [main] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [437]- Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-04-01 16:28:03,657 [] [main] WARN  o.s.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [232]- spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-04-01 16:28:04,043 [] [main] INFO  org.apache.coyote.http11.Http11NioProtocol [173]- Starting ProtocolHandler ["http-nio-8090"]
+2024-04-01 16:28:04,071 [] [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer [241]- Tomcat started on port 8090 (http) with context path ''
+2024-04-01 16:28:04,092 [] [main] INFO  com.whm.sea.SeaApplication [56]- Started SeaApplication in 3.238 seconds (process running for 3.879)
+2024-04-01 16:28:19,774 [] [main] INFO  com.whm.sea.SeaApplication [50]- Starting SeaApplication v0.0.1-SNAPSHOT using Java 22 with PID 26564 (E:\Gits\SEA\webapp\libserver\server-0.0.1-SNAPSHOT.jar started by whm in E:\Gits\SEA\webapp)
+2024-04-01 16:28:19,832 [] [main] INFO  com.whm.sea.SeaApplication [660]- The following 1 profile is active: "dev"
+2024-04-01 16:28:20,425 [] [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate [139]- Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-04-01 16:28:20,441 [] [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate [208]- Finished Spring Data repository scanning in 10 ms. Found 0 JPA repository interfaces.
+2024-04-01 16:28:21,021 [] [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer [109]- Tomcat initialized with port 8090 (http)
+2024-04-01 16:28:21,037 [] [main] INFO  org.apache.coyote.http11.Http11NioProtocol [173]- Initializing ProtocolHandler ["http-nio-8090"]
+2024-04-01 16:28:21,037 [] [main] INFO  org.apache.catalina.core.StandardService [173]- Starting service [Tomcat]
+2024-04-01 16:28:21,037 [] [main] INFO  org.apache.catalina.core.StandardEngine [173]- Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-04-01 16:28:21,073 [] [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [173]- Initializing Spring embedded WebApplicationContext
+2024-04-01 16:28:21,073 [] [main] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [296]- Root WebApplicationContext: initialization completed in 1163 ms
+2024-04-01 16:28:21,230 [] [main] INFO  com.zaxxer.hikari.HikariDataSource [110]- HikariPool-1 - Starting...
+2024-04-01 16:28:21,393 [] [main] INFO  com.zaxxer.hikari.pool.HikariPool [565]- HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:d5f96214-9fdd-479e-81d0-aea0cce4e6d3 user=SA
+2024-04-01 16:28:21,397 [] [main] INFO  com.zaxxer.hikari.HikariDataSource [123]- HikariPool-1 - Start completed.
+2024-04-01 16:28:21,438 [] [main] INFO  org.hibernate.jpa.internal.util.LogHelper [31]- HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-04-01 16:28:21,507 [] [main] INFO  org.hibernate.Version [44]- HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-04-01 16:28:21,538 [] [main] INFO  org.hibernate.cache.internal.RegionFactoryInitiator [50]- HHH000026: Second-level cache disabled
+2024-04-01 16:28:21,845 [] [main] INFO  org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo [87]- No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-04-01 16:28:22,114 [] [main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [58]- HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-04-01 16:28:22,118 [] [main] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [437]- Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-04-01 16:28:22,151 [] [main] WARN  o.s.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [232]- spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-04-01 16:28:22,536 [] [main] INFO  org.apache.coyote.http11.Http11NioProtocol [173]- Starting ProtocolHandler ["http-nio-8090"]
+2024-04-01 16:28:22,568 [] [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer [241]- Tomcat started on port 8090 (http) with context path ''
+2024-04-01 16:28:22,584 [] [main] INFO  com.whm.sea.SeaApplication [56]- Started SeaApplication in 3.27 seconds (process running for 3.933)
+2024-04-01 16:39:37,110 [] [main] INFO  com.whm.sea.SeaApplication [50]- Starting SeaApplication v0.0.1-SNAPSHOT using Java 22 with PID 21184 (E:\Gits\SEA\webapp\libserver\server-0.0.1-SNAPSHOT.jar started by whm in E:\Gits\SEA\webapp)
+2024-04-01 16:39:37,160 [] [main] INFO  com.whm.sea.SeaApplication [660]- The following 1 profile is active: "dev"
+2024-04-01 16:39:37,778 [] [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate [139]- Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-04-01 16:39:37,794 [] [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate [208]- Finished Spring Data repository scanning in 10 ms. Found 0 JPA repository interfaces.
+2024-04-01 16:39:38,381 [] [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer [109]- Tomcat initialized with port 8090 (http)
+2024-04-01 16:39:38,389 [] [main] INFO  org.apache.coyote.http11.Http11NioProtocol [173]- Initializing ProtocolHandler ["http-nio-8090"]
+2024-04-01 16:39:38,393 [] [main] INFO  org.apache.catalina.core.StandardService [173]- Starting service [Tomcat]
+2024-04-01 16:39:38,393 [] [main] INFO  org.apache.catalina.core.StandardEngine [173]- Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-04-01 16:39:38,429 [] [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [173]- Initializing Spring embedded WebApplicationContext
+2024-04-01 16:39:38,433 [] [main] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [296]- Root WebApplicationContext: initialization completed in 1201 ms
+2024-04-01 16:39:38,610 [] [main] INFO  com.zaxxer.hikari.HikariDataSource [110]- HikariPool-1 - Starting...
+2024-04-01 16:39:38,750 [] [main] INFO  com.zaxxer.hikari.pool.HikariPool [565]- HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:c8bba630-706a-4f2f-a2a5-9bcaed565627 user=SA
+2024-04-01 16:39:38,750 [] [main] INFO  com.zaxxer.hikari.HikariDataSource [123]- HikariPool-1 - Start completed.
+2024-04-01 16:39:38,824 [] [main] INFO  org.hibernate.jpa.internal.util.LogHelper [31]- HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-04-01 16:39:38,921 [] [main] INFO  org.hibernate.Version [44]- HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-04-01 16:39:38,986 [] [main] INFO  org.hibernate.cache.internal.RegionFactoryInitiator [50]- HHH000026: Second-level cache disabled
+2024-04-01 16:39:39,330 [] [main] INFO  org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo [87]- No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-04-01 16:39:39,582 [] [main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [58]- HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-04-01 16:39:39,586 [] [main] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [437]- Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-04-01 16:39:39,618 [] [main] WARN  o.s.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [232]- spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-04-01 16:39:40,057 [] [main] INFO  org.apache.coyote.http11.Http11NioProtocol [173]- Starting ProtocolHandler ["http-nio-8090"]
+2024-04-01 16:39:40,095 [] [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer [241]- Tomcat started on port 8090 (http) with context path ''
+2024-04-01 16:39:40,115 [] [main] INFO  com.whm.sea.SeaApplication [56]- Started SeaApplication in 3.45 seconds (process running for 4.065)
+2024-04-01 16:55:15,383 [] [main] INFO  com.whm.sea.SeaApplication [50]- Starting SeaApplication v0.0.1-SNAPSHOT using Java 22 with PID 23876 (E:\Gits\SEA\webapp\libserver\server-0.0.1-SNAPSHOT.jar started by whm in E:\Gits\SEA\webapp)
+2024-04-01 16:55:15,432 [] [main] INFO  com.whm.sea.SeaApplication [660]- The following 1 profile is active: "dev"
+2024-04-01 16:55:15,989 [] [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate [139]- Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-04-01 16:55:16,005 [] [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate [208]- Finished Spring Data repository scanning in 11 ms. Found 0 JPA repository interfaces.
+2024-04-01 16:55:16,598 [] [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer [109]- Tomcat initialized with port 8090 (http)
+2024-04-01 16:55:16,606 [] [main] INFO  org.apache.coyote.http11.Http11NioProtocol [173]- Initializing ProtocolHandler ["http-nio-8090"]
+2024-04-01 16:55:16,610 [] [main] INFO  org.apache.catalina.core.StandardService [173]- Starting service [Tomcat]
+2024-04-01 16:55:16,610 [] [main] INFO  org.apache.catalina.core.StandardEngine [173]- Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-04-01 16:55:16,642 [] [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [173]- Initializing Spring embedded WebApplicationContext
+2024-04-01 16:55:16,646 [] [main] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [296]- Root WebApplicationContext: initialization completed in 1147 ms
+2024-04-01 16:55:16,829 [] [main] INFO  com.zaxxer.hikari.HikariDataSource [110]- HikariPool-1 - Starting...
+2024-04-01 16:55:16,985 [] [main] INFO  com.zaxxer.hikari.pool.HikariPool [565]- HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:bad59680-5ff1-4e8b-b435-474dca14edae user=SA
+2024-04-01 16:55:16,985 [] [main] INFO  com.zaxxer.hikari.HikariDataSource [123]- HikariPool-1 - Start completed.
+2024-04-01 16:55:17,026 [] [main] INFO  org.hibernate.jpa.internal.util.LogHelper [31]- HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-04-01 16:55:17,114 [] [main] INFO  org.hibernate.Version [44]- HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-04-01 16:55:17,145 [] [main] INFO  org.hibernate.cache.internal.RegionFactoryInitiator [50]- HHH000026: Second-level cache disabled
+2024-04-01 16:55:17,424 [] [main] INFO  org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo [87]- No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-04-01 16:55:17,686 [] [main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [58]- HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-04-01 16:55:17,690 [] [main] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [437]- Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-04-01 16:55:17,722 [] [main] WARN  o.s.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [232]- spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-04-01 16:55:18,151 [] [main] INFO  org.apache.coyote.http11.Http11NioProtocol [173]- Starting ProtocolHandler ["http-nio-8090"]
+2024-04-01 16:55:18,188 [] [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer [241]- Tomcat started on port 8090 (http) with context path ''
+2024-04-01 16:55:18,208 [] [main] INFO  com.whm.sea.SeaApplication [56]- Started SeaApplication in 3.284 seconds (process running for 3.98)
+2024-04-01 16:55:45,598 [] [main] INFO  com.whm.sea.SeaApplication [50]- Starting SeaApplication v0.0.1-SNAPSHOT using Java 22 with PID 34748 (E:\Gits\SEA\webapp\libserver\server-0.0.1-SNAPSHOT.jar started by whm in E:\Gits\SEA\webapp)
+2024-04-01 16:55:45,659 [] [main] INFO  com.whm.sea.SeaApplication [660]- The following 1 profile is active: "dev"
+2024-04-01 16:55:46,254 [] [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate [139]- Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-04-01 16:55:46,272 [] [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate [208]- Finished Spring Data repository scanning in 10 ms. Found 0 JPA repository interfaces.
+2024-04-01 16:55:46,818 [] [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer [109]- Tomcat initialized with port 8090 (http)
+2024-04-01 16:55:46,833 [] [main] INFO  org.apache.coyote.http11.Http11NioProtocol [173]- Initializing ProtocolHandler ["http-nio-8090"]
+2024-04-01 16:55:46,835 [] [main] INFO  org.apache.catalina.core.StandardService [173]- Starting service [Tomcat]
+2024-04-01 16:55:46,835 [] [main] INFO  org.apache.catalina.core.StandardEngine [173]- Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-04-01 16:55:46,875 [] [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [173]- Initializing Spring embedded WebApplicationContext
+2024-04-01 16:55:46,875 [] [main] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [296]- Root WebApplicationContext: initialization completed in 1149 ms
+2024-04-01 16:55:47,033 [] [main] INFO  com.zaxxer.hikari.HikariDataSource [110]- HikariPool-1 - Starting...
+2024-04-01 16:55:47,213 [] [main] INFO  com.zaxxer.hikari.pool.HikariPool [565]- HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:f952940f-30ac-4728-9b00-c3bdbfe73800 user=SA
+2024-04-01 16:55:47,213 [] [main] INFO  com.zaxxer.hikari.HikariDataSource [123]- HikariPool-1 - Start completed.
+2024-04-01 16:55:47,272 [] [main] INFO  org.hibernate.jpa.internal.util.LogHelper [31]- HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-04-01 16:55:47,382 [] [main] INFO  org.hibernate.Version [44]- HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-04-01 16:55:47,428 [] [main] INFO  org.hibernate.cache.internal.RegionFactoryInitiator [50]- HHH000026: Second-level cache disabled
+2024-04-01 16:55:47,676 [] [main] INFO  org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo [87]- No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-04-01 16:55:47,943 [] [main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [58]- HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-04-01 16:55:47,947 [] [main] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [437]- Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-04-01 16:55:47,986 [] [main] WARN  o.s.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [232]- spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-04-01 16:55:48,364 [] [main] INFO  org.apache.coyote.http11.Http11NioProtocol [173]- Starting ProtocolHandler ["http-nio-8090"]
+2024-04-01 16:55:48,376 [] [main] WARN  o.s.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext [632]- Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2024-04-01 16:55:48,380 [] [main] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [650]- Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-04-01 16:55:48,384 [] [main] INFO  com.zaxxer.hikari.HikariDataSource [350]- HikariPool-1 - Shutdown initiated...
+2024-04-01 16:55:48,388 [] [main] INFO  com.zaxxer.hikari.HikariDataSource [352]- HikariPool-1 - Shutdown completed.
+2024-04-01 16:55:48,404 [] [main] INFO  org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLogger [82]- 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-04-01 16:55:48,436 [] [main] ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter [40]- 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8090 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8090 or configure this application to listen on another port.
+
+2024-04-01 17:03:02,700 [] [main] INFO  com.whm.sea.SeaApplication [50]- Starting SeaApplication v0.0.1-SNAPSHOT using Java 22 with PID 31272 (E:\Gits\SEA\webapp\libserver\server-0.0.1-SNAPSHOT.jar started by whm in E:\Gits\SEA\webapp)
+2024-04-01 17:03:02,747 [] [main] INFO  com.whm.sea.SeaApplication [660]- The following 1 profile is active: "dev"
+2024-04-01 17:03:03,314 [] [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate [139]- Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-04-01 17:03:03,331 [] [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate [208]- Finished Spring Data repository scanning in 10 ms. Found 0 JPA repository interfaces.
+2024-04-01 17:03:03,812 [] [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer [109]- Tomcat initialized with port 8090 (http)
+2024-04-01 17:03:03,826 [] [main] INFO  org.apache.coyote.http11.Http11NioProtocol [173]- Initializing ProtocolHandler ["http-nio-8090"]
+2024-04-01 17:03:03,826 [] [main] INFO  org.apache.catalina.core.StandardService [173]- Starting service [Tomcat]
+2024-04-01 17:03:03,826 [] [main] INFO  org.apache.catalina.core.StandardEngine [173]- Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-04-01 17:03:03,860 [] [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [173]- Initializing Spring embedded WebApplicationContext
+2024-04-01 17:03:03,860 [] [main] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [296]- Root WebApplicationContext: initialization completed in 1053 ms
+2024-04-01 17:03:04,034 [] [main] INFO  com.zaxxer.hikari.HikariDataSource [110]- HikariPool-1 - Starting...
+2024-04-01 17:03:04,201 [] [main] INFO  com.zaxxer.hikari.pool.HikariPool [565]- HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:3ac9f86e-08f2-4d2a-8d4e-b9b5cdac4a17 user=SA
+2024-04-01 17:03:04,205 [] [main] INFO  com.zaxxer.hikari.HikariDataSource [123]- HikariPool-1 - Start completed.
+2024-04-01 17:03:04,261 [] [main] INFO  org.hibernate.jpa.internal.util.LogHelper [31]- HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-04-01 17:03:04,364 [] [main] INFO  org.hibernate.Version [44]- HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-04-01 17:03:04,404 [] [main] INFO  org.hibernate.cache.internal.RegionFactoryInitiator [50]- HHH000026: Second-level cache disabled
+2024-04-01 17:03:04,681 [] [main] INFO  org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo [87]- No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-04-01 17:03:54,543 [] [main] INFO  com.whm.sea.SeaApplication [50]- Starting SeaApplication v0.0.1-SNAPSHOT using Java 22 with PID 20964 (E:\Gits\SEA\webapp\libserver\server-0.0.1-SNAPSHOT.jar started by whm in E:\Gits\SEA\webapp)
+2024-04-01 17:03:54,593 [] [main] INFO  com.whm.sea.SeaApplication [660]- The following 1 profile is active: "dev"
+2024-04-01 17:03:55,160 [] [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate [139]- Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-04-01 17:03:55,177 [] [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate [208]- Finished Spring Data repository scanning in 12 ms. Found 0 JPA repository interfaces.
+2024-04-01 17:03:55,663 [] [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer [109]- Tomcat initialized with port 8090 (http)
+2024-04-01 17:03:55,675 [] [main] INFO  org.apache.coyote.http11.Http11NioProtocol [173]- Initializing ProtocolHandler ["http-nio-8090"]
+2024-04-01 17:03:55,675 [] [main] INFO  org.apache.catalina.core.StandardService [173]- Starting service [Tomcat]
+2024-04-01 17:03:55,675 [] [main] INFO  org.apache.catalina.core.StandardEngine [173]- Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-04-01 17:03:55,711 [] [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [173]- Initializing Spring embedded WebApplicationContext
+2024-04-01 17:03:55,711 [] [main] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [296]- Root WebApplicationContext: initialization completed in 1050 ms
+2024-04-01 17:03:55,867 [] [main] INFO  com.zaxxer.hikari.HikariDataSource [110]- HikariPool-1 - Starting...
+2024-04-01 17:03:56,024 [] [main] INFO  com.zaxxer.hikari.pool.HikariPool [565]- HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:ab89808a-c5af-4bbb-9402-5866280933a3 user=SA
+2024-04-01 17:03:56,028 [] [main] INFO  com.zaxxer.hikari.HikariDataSource [123]- HikariPool-1 - Start completed.
+2024-04-01 17:03:56,068 [] [main] INFO  org.hibernate.jpa.internal.util.LogHelper [31]- HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-04-01 17:03:56,164 [] [main] INFO  org.hibernate.Version [44]- HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-04-01 17:03:56,192 [] [main] INFO  org.hibernate.cache.internal.RegionFactoryInitiator [50]- HHH000026: Second-level cache disabled
+2024-04-01 17:03:56,407 [] [main] INFO  org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo [87]- No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-04-01 17:03:56,637 [] [main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [58]- HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-04-01 17:03:56,641 [] [main] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [437]- Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-04-01 17:03:56,673 [] [main] WARN  o.s.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [232]- spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-04-01 17:03:57,037 [] [main] INFO  org.apache.coyote.http11.Http11NioProtocol [173]- Starting ProtocolHandler ["http-nio-8090"]
+2024-04-01 17:03:57,046 [] [main] WARN  o.s.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext [632]- Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2024-04-01 17:03:57,049 [] [main] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [650]- Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-04-01 17:03:57,049 [] [main] INFO  com.zaxxer.hikari.HikariDataSource [350]- HikariPool-1 - Shutdown initiated...
+2024-04-01 17:03:57,053 [] [main] INFO  com.zaxxer.hikari.HikariDataSource [352]- HikariPool-1 - Shutdown completed.
+2024-04-01 17:03:57,069 [] [main] INFO  org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLogger [82]- 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-04-01 17:03:57,117 [] [main] ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter [40]- 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8090 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8090 or configure this application to listen on another port.
+
+2024-04-01 17:04:41,428 [] [main] INFO  com.whm.sea.SeaApplication [50]- Starting SeaApplication v0.0.1-SNAPSHOT using Java 22 with PID 32324 (E:\Gits\SEA\webapp\libserver\server-0.0.1-SNAPSHOT.jar started by whm in E:\Gits\SEA\webapp)
+2024-04-01 17:04:41,502 [] [main] INFO  com.whm.sea.SeaApplication [660]- The following 1 profile is active: "dev"
+2024-04-01 17:04:42,215 [] [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate [139]- Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-04-01 17:04:42,238 [] [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate [208]- Finished Spring Data repository scanning in 16 ms. Found 0 JPA repository interfaces.
+2024-04-01 17:04:42,805 [] [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer [109]- Tomcat initialized with port 8090 (http)
+2024-04-01 17:04:42,823 [] [main] INFO  org.apache.coyote.http11.Http11NioProtocol [173]- Initializing ProtocolHandler ["http-nio-8090"]
+2024-04-01 17:04:42,826 [] [main] INFO  org.apache.catalina.core.StandardService [173]- Starting service [Tomcat]
+2024-04-01 17:04:42,826 [] [main] INFO  org.apache.catalina.core.StandardEngine [173]- Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-04-01 17:04:42,879 [] [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [173]- Initializing Spring embedded WebApplicationContext
+2024-04-01 17:04:42,879 [] [main] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [296]- Root WebApplicationContext: initialization completed in 1304 ms
+2024-04-01 17:04:43,093 [] [main] INFO  com.zaxxer.hikari.HikariDataSource [110]- HikariPool-1 - Starting...
+2024-04-01 17:04:43,278 [] [main] INFO  com.zaxxer.hikari.pool.HikariPool [565]- HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:6b8f356b-75bf-4614-9712-3192491b3d48 user=SA
+2024-04-01 17:04:43,280 [] [main] INFO  com.zaxxer.hikari.HikariDataSource [123]- HikariPool-1 - Start completed.
+2024-04-01 17:04:43,328 [] [main] INFO  org.hibernate.jpa.internal.util.LogHelper [31]- HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-04-01 17:04:43,422 [] [main] INFO  org.hibernate.Version [44]- HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-04-01 17:04:43,469 [] [main] INFO  org.hibernate.cache.internal.RegionFactoryInitiator [50]- HHH000026: Second-level cache disabled
+2024-04-01 17:04:43,796 [] [main] INFO  org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo [87]- No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-04-01 17:04:44,057 [] [main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [58]- HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-04-01 17:04:44,061 [] [main] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [437]- Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-04-01 17:04:44,105 [] [main] WARN  o.s.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [232]- spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-04-01 17:04:44,530 [] [main] INFO  org.apache.coyote.http11.Http11NioProtocol [173]- Starting ProtocolHandler ["http-nio-8090"]
+2024-04-01 17:04:44,558 [] [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer [241]- Tomcat started on port 8090 (http) with context path ''
+2024-04-01 17:04:44,574 [] [main] INFO  com.whm.sea.SeaApplication [56]- Started SeaApplication in 3.689 seconds (process running for 4.375)
+2024-04-01 17:12:41,049 [] [main] INFO  com.whm.sea.SeaApplication [50]- Starting SeaApplication v0.0.1-SNAPSHOT using Java 22 with PID 34384 (E:\Gits\SEA\webapp\libserver\server-0.0.1-SNAPSHOT.jar started by whm in E:\Gits\SEA\webapp)
+2024-04-01 17:12:41,097 [] [main] INFO  com.whm.sea.SeaApplication [660]- The following 1 profile is active: "dev"
+2024-04-01 17:12:41,687 [] [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate [139]- Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-04-01 17:12:41,703 [] [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate [208]- Finished Spring Data repository scanning in 9 ms. Found 0 JPA repository interfaces.
+2024-04-01 17:12:42,251 [] [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer [109]- Tomcat initialized with port 8090 (http)
+2024-04-01 17:12:42,264 [] [main] INFO  org.apache.coyote.http11.Http11NioProtocol [173]- Initializing ProtocolHandler ["http-nio-8090"]
+2024-04-01 17:12:42,264 [] [main] INFO  org.apache.catalina.core.StandardService [173]- Starting service [Tomcat]
+2024-04-01 17:12:42,268 [] [main] INFO  org.apache.catalina.core.StandardEngine [173]- Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-04-01 17:12:42,296 [] [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [173]- Initializing Spring embedded WebApplicationContext
+2024-04-01 17:12:42,296 [] [main] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [296]- Root WebApplicationContext: initialization completed in 1132 ms
+2024-04-01 17:12:42,487 [] [main] INFO  com.zaxxer.hikari.HikariDataSource [110]- HikariPool-1 - Starting...
+2024-04-01 17:12:42,659 [] [main] INFO  com.zaxxer.hikari.pool.HikariPool [565]- HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:ffe6578b-39b9-4f6a-b99c-95b2541c8cf5 user=SA
+2024-04-01 17:12:42,659 [] [main] INFO  com.zaxxer.hikari.HikariDataSource [123]- HikariPool-1 - Start completed.
+2024-04-01 17:12:42,720 [] [main] INFO  org.hibernate.jpa.internal.util.LogHelper [31]- HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-04-01 17:12:42,808 [] [main] INFO  org.hibernate.Version [44]- HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-04-01 17:12:42,840 [] [main] INFO  org.hibernate.cache.internal.RegionFactoryInitiator [50]- HHH000026: Second-level cache disabled
+2024-04-01 17:12:43,121 [] [main] INFO  org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo [87]- No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-04-01 17:12:43,349 [] [main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [58]- HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-04-01 17:12:43,349 [] [main] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [437]- Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-04-01 17:12:43,389 [] [main] WARN  o.s.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [232]- spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-04-01 17:12:43,845 [] [main] INFO  org.apache.coyote.http11.Http11NioProtocol [173]- Starting ProtocolHandler ["http-nio-8090"]
+2024-04-01 17:12:43,877 [] [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer [241]- Tomcat started on port 8090 (http) with context path ''
+2024-04-01 17:12:43,897 [] [main] INFO  com.whm.sea.SeaApplication [56]- Started SeaApplication in 3.289 seconds (process running for 4.021)
+2024-04-01 17:13:35,546 [] [main] INFO  com.whm.sea.SeaApplication [50]- Starting SeaApplication v0.0.1-SNAPSHOT using Java 22 with PID 19564 (E:\Gits\SEA\webapp\libserver\server-0.0.1-SNAPSHOT.jar started by whm in E:\Gits\SEA\webapp)
+2024-04-01 17:13:35,601 [] [main] INFO  com.whm.sea.SeaApplication [660]- The following 1 profile is active: "dev"
+2024-04-01 17:13:36,163 [] [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate [139]- Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-04-01 17:13:36,179 [] [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate [208]- Finished Spring Data repository scanning in 10 ms. Found 0 JPA repository interfaces.
+2024-04-01 17:13:36,699 [] [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer [109]- Tomcat initialized with port 8090 (http)
+2024-04-01 17:13:36,715 [] [main] INFO  org.apache.coyote.http11.Http11NioProtocol [173]- Initializing ProtocolHandler ["http-nio-8090"]
+2024-04-01 17:13:36,715 [] [main] INFO  org.apache.catalina.core.StandardService [173]- Starting service [Tomcat]
+2024-04-01 17:13:36,715 [] [main] INFO  org.apache.catalina.core.StandardEngine [173]- Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-04-01 17:13:36,747 [] [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [173]- Initializing Spring embedded WebApplicationContext
+2024-04-01 17:13:36,747 [] [main] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [296]- Root WebApplicationContext: initialization completed in 1080 ms
+2024-04-01 17:13:36,937 [] [main] INFO  com.zaxxer.hikari.HikariDataSource [110]- HikariPool-1 - Starting...
+2024-04-01 17:13:37,103 [] [main] INFO  com.zaxxer.hikari.pool.HikariPool [565]- HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:e080e259-4f93-4f3b-9ede-1bb779a5ead3 user=SA
+2024-04-01 17:13:37,103 [] [main] INFO  com.zaxxer.hikari.HikariDataSource [123]- HikariPool-1 - Start completed.
+2024-04-01 17:13:37,149 [] [main] INFO  org.hibernate.jpa.internal.util.LogHelper [31]- HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-04-01 17:13:37,243 [] [main] INFO  org.hibernate.Version [44]- HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-04-01 17:13:37,279 [] [main] INFO  org.hibernate.cache.internal.RegionFactoryInitiator [50]- HHH000026: Second-level cache disabled
+2024-04-01 17:13:37,588 [] [main] INFO  org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo [87]- No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-04-01 17:13:37,826 [] [main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [58]- HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-04-01 17:13:37,826 [] [main] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [437]- Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-04-01 17:13:37,862 [] [main] WARN  o.s.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [232]- spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-04-01 17:13:38,315 [] [main] INFO  org.apache.coyote.http11.Http11NioProtocol [173]- Starting ProtocolHandler ["http-nio-8090"]
+2024-04-01 17:13:38,355 [] [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer [241]- Tomcat started on port 8090 (http) with context path ''
+2024-04-01 17:13:38,375 [] [main] INFO  com.whm.sea.SeaApplication [56]- Started SeaApplication in 3.294 seconds (process running for 4.007)
+2024-04-01 17:22:15,545 [] [main] INFO  com.whm.sea.SeaApplication [50]- Starting SeaApplication v0.0.1-SNAPSHOT using Java 22 with PID 23752 (E:\Gits\SEA\webapp\libserver\server-0.0.1-SNAPSHOT.jar started by whm in E:\Gits\SEA\webapp)
+2024-04-01 17:22:15,600 [] [main] INFO  com.whm.sea.SeaApplication [660]- The following 1 profile is active: "dev"
+2024-04-01 17:22:16,165 [] [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate [139]- Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-04-01 17:22:16,181 [] [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate [208]- Finished Spring Data repository scanning in 9 ms. Found 0 JPA repository interfaces.
+2024-04-01 17:22:16,663 [] [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer [109]- Tomcat initialized with port 8090 (http)
+2024-04-01 17:22:16,675 [] [main] INFO  org.apache.coyote.http11.Http11NioProtocol [173]- Initializing ProtocolHandler ["http-nio-8090"]
+2024-04-01 17:22:16,675 [] [main] INFO  org.apache.catalina.core.StandardService [173]- Starting service [Tomcat]
+2024-04-01 17:22:16,675 [] [main] INFO  org.apache.catalina.core.StandardEngine [173]- Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-04-01 17:22:16,715 [] [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [173]- Initializing Spring embedded WebApplicationContext
+2024-04-01 17:22:16,715 [] [main] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [296]- Root WebApplicationContext: initialization completed in 1054 ms
+2024-04-01 17:22:16,866 [] [main] INFO  com.zaxxer.hikari.HikariDataSource [110]- HikariPool-1 - Starting...
+2024-04-01 17:22:17,015 [] [main] INFO  com.zaxxer.hikari.pool.HikariPool [565]- HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:aa9600f8-3e00-4fa9-a348-3e55b12b4ac8 user=SA
+2024-04-01 17:22:17,015 [] [main] INFO  com.zaxxer.hikari.HikariDataSource [123]- HikariPool-1 - Start completed.
+2024-04-01 17:22:17,079 [] [main] INFO  org.hibernate.jpa.internal.util.LogHelper [31]- HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-04-01 17:22:17,147 [] [main] INFO  org.hibernate.Version [44]- HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-04-01 17:22:17,179 [] [main] INFO  org.hibernate.cache.internal.RegionFactoryInitiator [50]- HHH000026: Second-level cache disabled
+2024-04-01 17:22:17,434 [] [main] INFO  org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo [87]- No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-04-01 17:22:17,691 [] [main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [58]- HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-04-01 17:22:17,695 [] [main] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [437]- Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-04-01 17:22:17,735 [] [main] WARN  o.s.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [232]- spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-04-01 17:22:18,100 [] [main] INFO  org.apache.coyote.http11.Http11NioProtocol [173]- Starting ProtocolHandler ["http-nio-8090"]
+2024-04-01 17:22:18,136 [] [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer [241]- Tomcat started on port 8090 (http) with context path ''
+2024-04-01 17:22:18,152 [] [main] INFO  com.whm.sea.SeaApplication [56]- Started SeaApplication in 3.074 seconds (process running for 3.785)
+2024-04-01 17:23:45,872 [] [main] INFO  com.whm.sea.SeaApplication [50]- Starting SeaApplication v0.0.1-SNAPSHOT using Java 22 with PID 31464 (E:\Gits\SEA\webapp\libserver\server-0.0.1-SNAPSHOT.jar started by whm in E:\Gits\SEA\webapp)
+2024-04-01 17:23:45,937 [] [main] INFO  com.whm.sea.SeaApplication [660]- The following 1 profile is active: "dev"
+2024-04-01 17:23:46,478 [] [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate [139]- Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-04-01 17:23:46,496 [] [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate [208]- Finished Spring Data repository scanning in 11 ms. Found 0 JPA repository interfaces.
+2024-04-01 17:23:46,927 [] [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer [109]- Tomcat initialized with port 8090 (http)
+2024-04-01 17:23:46,939 [] [main] INFO  org.apache.coyote.http11.Http11NioProtocol [173]- Initializing ProtocolHandler ["http-nio-8090"]
+2024-04-01 17:23:46,942 [] [main] INFO  org.apache.catalina.core.StandardService [173]- Starting service [Tomcat]
+2024-04-01 17:23:46,942 [] [main] INFO  org.apache.catalina.core.StandardEngine [173]- Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-04-01 17:23:46,972 [] [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [173]- Initializing Spring embedded WebApplicationContext
+2024-04-01 17:23:46,973 [] [main] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [296]- Root WebApplicationContext: initialization completed in 969 ms
+2024-04-01 17:23:47,104 [] [main] INFO  com.zaxxer.hikari.HikariDataSource [110]- HikariPool-1 - Starting...
+2024-04-01 17:23:47,270 [] [main] INFO  com.zaxxer.hikari.pool.HikariPool [565]- HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:32f85bbd-a1fe-42c0-b56b-8bda4b1f6198 user=SA
+2024-04-01 17:23:47,271 [] [main] INFO  com.zaxxer.hikari.HikariDataSource [123]- HikariPool-1 - Start completed.
+2024-04-01 17:23:47,312 [] [main] INFO  org.hibernate.jpa.internal.util.LogHelper [31]- HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-04-01 17:23:47,402 [] [main] INFO  org.hibernate.Version [44]- HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-04-01 17:23:47,430 [] [main] INFO  org.hibernate.cache.internal.RegionFactoryInitiator [50]- HHH000026: Second-level cache disabled
+2024-04-01 17:23:47,650 [] [main] INFO  org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo [87]- No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-04-01 17:23:47,902 [] [main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [58]- HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-04-01 17:23:47,905 [] [main] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [437]- Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-04-01 17:23:47,941 [] [main] WARN  o.s.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [232]- spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-04-01 17:23:48,280 [] [main] INFO  org.apache.coyote.http11.Http11NioProtocol [173]- Starting ProtocolHandler ["http-nio-8090"]
+2024-04-01 17:23:48,307 [] [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer [241]- Tomcat started on port 8090 (http) with context path ''
+2024-04-01 17:23:48,323 [] [main] INFO  com.whm.sea.SeaApplication [56]- Started SeaApplication in 2.9 seconds (process running for 3.5)
+2024-04-01 17:24:49,026 [] [main] INFO  com.whm.sea.SeaApplication [50]- Starting SeaApplication v0.0.1-SNAPSHOT using Java 22 with PID 5032 (E:\Gits\SEA\webapp\libserver\server-0.0.1-SNAPSHOT.jar started by whm in E:\Gits\SEA\webapp)
+2024-04-01 17:24:49,082 [] [main] INFO  com.whm.sea.SeaApplication [660]- The following 1 profile is active: "dev"
+2024-04-01 17:24:49,675 [] [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate [139]- Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-04-01 17:24:49,691 [] [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate [208]- Finished Spring Data repository scanning in 9 ms. Found 0 JPA repository interfaces.
+2024-04-01 17:24:50,165 [] [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer [109]- Tomcat initialized with port 8090 (http)
+2024-04-01 17:24:50,173 [] [main] INFO  org.apache.coyote.http11.Http11NioProtocol [173]- Initializing ProtocolHandler ["http-nio-8090"]
+2024-04-01 17:24:50,173 [] [main] INFO  org.apache.catalina.core.StandardService [173]- Starting service [Tomcat]
+2024-04-01 17:24:50,173 [] [main] INFO  org.apache.catalina.core.StandardEngine [173]- Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-04-01 17:24:50,205 [] [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [173]- Initializing Spring embedded WebApplicationContext
+2024-04-01 17:24:50,205 [] [main] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [296]- Root WebApplicationContext: initialization completed in 1054 ms
+2024-04-01 17:24:50,393 [] [main] INFO  com.zaxxer.hikari.HikariDataSource [110]- HikariPool-1 - Starting...
+2024-04-01 17:24:50,559 [] [main] INFO  com.zaxxer.hikari.pool.HikariPool [565]- HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:60f46031-57fc-45d9-bb9c-53dcdc858480 user=SA
+2024-04-01 17:24:50,563 [] [main] INFO  com.zaxxer.hikari.HikariDataSource [123]- HikariPool-1 - Start completed.
+2024-04-01 17:24:50,611 [] [main] INFO  org.hibernate.jpa.internal.util.LogHelper [31]- HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-04-01 17:24:50,706 [] [main] INFO  org.hibernate.Version [44]- HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-04-01 17:24:50,738 [] [main] INFO  org.hibernate.cache.internal.RegionFactoryInitiator [50]- HHH000026: Second-level cache disabled
+2024-04-01 17:24:51,000 [] [main] INFO  org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo [87]- No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-04-01 17:24:51,236 [] [main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [58]- HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-04-01 17:24:51,236 [] [main] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [437]- Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-04-01 17:24:51,271 [] [main] WARN  o.s.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [232]- spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-04-01 17:24:51,621 [] [main] INFO  org.apache.coyote.http11.Http11NioProtocol [173]- Starting ProtocolHandler ["http-nio-8090"]
+2024-04-01 17:24:51,654 [] [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer [241]- Tomcat started on port 8090 (http) with context path ''
+2024-04-01 17:24:51,677 [] [main] INFO  com.whm.sea.SeaApplication [56]- Started SeaApplication in 3.097 seconds (process running for 3.791)
+2024-04-01 17:26:36,155 [] [main] INFO  com.whm.sea.SeaApplication [50]- Starting SeaApplication v0.0.1-SNAPSHOT using Java 22 with PID 19936 (E:\Gits\SEA\webapp\libserver\server-0.0.1-SNAPSHOT.jar started by whm in E:\Gits\SEA\webapp)
+2024-04-01 17:26:36,207 [] [main] INFO  com.whm.sea.SeaApplication [660]- The following 1 profile is active: "dev"
+2024-04-01 17:26:36,810 [] [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate [139]- Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-04-01 17:26:36,826 [] [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate [208]- Finished Spring Data repository scanning in 9 ms. Found 0 JPA repository interfaces.
+2024-04-01 17:26:37,322 [] [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer [109]- Tomcat initialized with port 8090 (http)
+2024-04-01 17:26:37,334 [] [main] INFO  org.apache.coyote.http11.Http11NioProtocol [173]- Initializing ProtocolHandler ["http-nio-8090"]
+2024-04-01 17:26:37,334 [] [main] INFO  org.apache.catalina.core.StandardService [173]- Starting service [Tomcat]
+2024-04-01 17:26:37,334 [] [main] INFO  org.apache.catalina.core.StandardEngine [173]- Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-04-01 17:26:37,366 [] [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [173]- Initializing Spring embedded WebApplicationContext
+2024-04-01 17:26:37,366 [] [main] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [296]- Root WebApplicationContext: initialization completed in 1082 ms
+2024-04-01 17:26:37,543 [] [main] INFO  com.zaxxer.hikari.HikariDataSource [110]- HikariPool-1 - Starting...
+2024-04-01 17:26:37,713 [] [main] INFO  com.zaxxer.hikari.pool.HikariPool [565]- HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:17e754cc-df49-4e56-ac28-9e3499df6de0 user=SA
+2024-04-01 17:26:37,717 [] [main] INFO  com.zaxxer.hikari.HikariDataSource [123]- HikariPool-1 - Start completed.
+2024-04-01 17:26:37,758 [] [main] INFO  org.hibernate.jpa.internal.util.LogHelper [31]- HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-04-01 17:26:37,858 [] [main] INFO  org.hibernate.Version [44]- HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-04-01 17:26:37,890 [] [main] INFO  org.hibernate.cache.internal.RegionFactoryInitiator [50]- HHH000026: Second-level cache disabled
+2024-04-01 17:26:38,191 [] [main] INFO  org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo [87]- No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-04-01 17:26:38,415 [] [main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [58]- HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-04-01 17:26:38,419 [] [main] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [437]- Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-04-01 17:26:38,447 [] [main] WARN  o.s.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [232]- spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-04-01 17:26:38,773 [] [main] INFO  org.apache.coyote.http11.Http11NioProtocol [173]- Starting ProtocolHandler ["http-nio-8090"]
+2024-04-01 17:26:38,805 [] [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer [241]- Tomcat started on port 8090 (http) with context path ''
+2024-04-01 17:26:38,817 [] [main] INFO  com.whm.sea.SeaApplication [56]- Started SeaApplication in 3.114 seconds (process running for 3.778)
+2024-04-01 17:27:36,819 [] [main] INFO  com.whm.sea.SeaApplication [50]- Starting SeaApplication v0.0.1-SNAPSHOT using Java 22 with PID 25580 (E:\Gits\SEA\webapp\libserver\server-0.0.1-SNAPSHOT.jar started by whm in E:\Gits\SEA\webapp)
+2024-04-01 17:27:36,870 [] [main] INFO  com.whm.sea.SeaApplication [660]- The following 1 profile is active: "dev"
+2024-04-01 17:27:37,436 [] [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate [139]- Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-04-01 17:27:37,452 [] [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate [208]- Finished Spring Data repository scanning in 9 ms. Found 0 JPA repository interfaces.
+2024-04-01 17:27:38,025 [] [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer [109]- Tomcat initialized with port 8090 (http)
+2024-04-01 17:27:38,037 [] [main] INFO  org.apache.coyote.http11.Http11NioProtocol [173]- Initializing ProtocolHandler ["http-nio-8090"]
+2024-04-01 17:27:38,041 [] [main] INFO  org.apache.catalina.core.StandardService [173]- Starting service [Tomcat]
+2024-04-01 17:27:38,041 [] [main] INFO  org.apache.catalina.core.StandardEngine [173]- Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-04-01 17:27:38,073 [] [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [173]- Initializing Spring embedded WebApplicationContext
+2024-04-01 17:27:38,073 [] [main] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [296]- Root WebApplicationContext: initialization completed in 1140 ms
+2024-04-01 17:27:38,221 [] [main] INFO  com.zaxxer.hikari.HikariDataSource [110]- HikariPool-1 - Starting...
+2024-04-01 17:27:38,382 [] [main] INFO  com.zaxxer.hikari.pool.HikariPool [565]- HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:92a5cc9f-6a16-4b21-8aec-ebd5759d1856 user=SA
+2024-04-01 17:27:38,382 [] [main] INFO  com.zaxxer.hikari.HikariDataSource [123]- HikariPool-1 - Start completed.
+2024-04-01 17:27:38,467 [] [main] INFO  org.hibernate.jpa.internal.util.LogHelper [31]- HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-04-01 17:27:38,563 [] [main] INFO  org.hibernate.Version [44]- HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-04-01 17:27:38,591 [] [main] INFO  org.hibernate.cache.internal.RegionFactoryInitiator [50]- HHH000026: Second-level cache disabled
+2024-04-01 17:27:38,828 [] [main] INFO  org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo [87]- No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-04-01 17:27:39,059 [] [main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [58]- HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-04-01 17:27:39,063 [] [main] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [437]- Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-04-01 17:27:39,103 [] [main] WARN  o.s.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [232]- spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-04-01 17:27:39,516 [] [main] INFO  org.apache.coyote.http11.Http11NioProtocol [173]- Starting ProtocolHandler ["http-nio-8090"]
+2024-04-01 17:27:39,540 [] [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer [241]- Tomcat started on port 8090 (http) with context path ''
+2024-04-01 17:27:39,552 [] [main] INFO  com.whm.sea.SeaApplication [56]- Started SeaApplication in 3.217 seconds (process running for 3.905)
